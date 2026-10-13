@@ -1,4 +1,4 @@
-CareFlow - Week 1 Plan (Varshini)
+CareFlow - Week 1 Plan
 
 Project: CareFlow, Clinical Pathway Process Mining
 Role: Team lead and dashboard
