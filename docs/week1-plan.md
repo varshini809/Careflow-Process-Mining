@@ -9,5 +9,5 @@ Week 1 tasks
 - Draft Work Distribution Document
 - Design Power BI dashboard layout
 
-Tools
+Tools:
 Python, SQL, Power BI, GitHub
