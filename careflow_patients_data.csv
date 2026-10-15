@@ -1,0 +1,1135 @@
+Case ID,Activity Name,Timestamp
+P001,Registration,08:20
+P001,Vitals,08:53
+P001,Triage,09:25
+P001,Doctor,09:49
+P001,Billing Counter,10:06
+P001,Pathology,10:28
+P001,Pathology report,11:59
+P001,Triage,12:14
+P001,Doctor,13:17
+P001,Pharmacy,13:49
+P001,Discharge,13:55
+P002,Registration,09:10
+P002,Vitals,09:15
+P002,Triage,09:48
+P002,Doctor,11:03
+P002,Billing Counter,11:32
+P002,Pathology,11:39
+P002,X-Ray,12:12
+P002,X-Ray report,13:48
+P002,Pathology report,14:56
+P002,Doctor,15:24
+P002,Pharmacy,15:29
+P002,Discharge,15:44
+P003,Registration,11:05
+P003,Vitals,11:35
+P003,Triage,12:09
+P003,Doctor,12:31
+P003,Billing Counter,12:45
+P003,X-Ray,13:19
+P003,X-Ray report,14:34
+P003,Doctor,16:07
+P003,Pharmacy,16:27
+P003,Discharge,16:40
+P004,Registration,11:00
+P004,Vitals,11:11
+P004,Triage,11:42
+P004,Doctor,13:19
+P004,Billing Counter,13:44
+P004,Pathology,14:05
+P004,X-Ray,14:28
+P004,X-Ray report,15:28
+P004,Pathology report,15:49
+P004,Doctor,16:59
+P004,Pharmacy,17:32
+P004,Discharge,17:57
+P005,Registration,11:50
+P005,Vitals,12:10
+P005,Triage,12:31
+P005,Doctor,13:44
+P005,Billing Counter,14:00
+P005,Pathology,14:21
+P005,X-Ray,14:27
+P005,X-Ray report,15:10
+P005,Pathology report,15:40
+P005,Doctor,17:02
+P005,Pharmacy,17:28
+P005,Discharge,17:41
+P006,Registration,09:30
+P006,Vitals,09:49
+P006,Triage,10:06
+P006,Doctor,11:39
+P006,Billing Counter,12:08
+P006,Pathology,12:23
+P006,X-Ray,12:28
+P006,X-Ray report,13:12
+P006,Pathology report,14:47
+P006,Triage,14:54
+P006,Doctor,16:34
+P006,Pharmacy,16:50
+P006,Discharge,16:55
+P007,Registration,10:15
+P007,Vitals,10:21
+P007,Triage,10:46
+P007,Doctor,11:42
+P007,Billing Counter,12:02
+P007,Pathology,12:37
+P007,X-Ray,13:06
+P007,X-Ray report,14:46
+P007,Pathology report,15:35
+P007,Doctor,17:04
+P007,Pharmacy,17:24
+P007,Discharge,17:34
+P008,Registration,09:50
+P008,Vitals,09:59
+P008,Triage,10:18
+P008,Doctor,11:02
+P008,Billing Counter,11:07
+P008,Pathology,11:20
+P008,X-Ray,11:50
+P008,X-Ray report,12:55
+P008,Pathology report,13:49
+P008,Triage,14:07
+P008,Doctor,15:20
+P008,Pharmacy,15:25
+P008,Discharge,15:33
+P009,Registration,08:50
+P009,Vitals,08:55
+P009,Triage,09:25
+P009,Doctor,10:53
+P009,Billing Counter,11:10
+P009,X-Ray,11:17
+P009,X-Ray report,12:46
+P009,Doctor,13:57
+P009,Pharmacy,14:02
+P009,Discharge,14:17
+P010,Registration,10:45
+P010,Vitals,10:50
+P010,Triage,11:15
+P010,Doctor,11:55
+P010,Billing Counter,12:28
+P010,Pathology,13:03
+P010,Pathology report,14:16
+P010,Doctor,14:44
+P010,Pharmacy,15:11
+P010,Discharge,15:20
+P011,Registration,10:15
+P011,Vitals,10:44
+P011,Triage,11:05
+P011,Doctor,12:14
+P011,Billing Counter,12:36
+P011,Pathology,12:50
+P011,X-Ray,12:59
+P011,X-Ray report,13:56
+P011,Pathology report,15:05
+P011,Doctor,16:12
+P011,Pharmacy,16:21
+P011,Discharge,16:43
+P012,Registration,10:50
+P012,Vitals,11:08
+P012,Triage,11:14
+P012,Doctor,11:51
+P012,Billing Counter,12:10
+P012,Pathology,12:36
+P012,Pathology report,12:58
+P012,Doctor,14:02
+P012,Pharmacy,14:21
+P012,Discharge,14:40
+P013,Registration,10:40
+P013,Vitals,11:12
+P013,Triage,11:33
+P013,Doctor,12:58
+P013,Billing Counter,13:20
+P013,X-Ray,13:29
+P013,X-Ray report,14:32
+P013,Doctor,15:56
+P013,Pharmacy,16:04
+P013,Discharge,16:26
+P014,Registration,10:15
+P014,Vitals,10:36
+P014,Triage,10:48
+P014,Doctor,11:34
+P014,Billing Counter,12:07
+P014,Pathology,12:22
+P014,X-Ray,12:35
+P014,X-Ray report,13:45
+P014,Pathology report,14:10
+P014,Doctor,15:34
+P014,Pharmacy,15:41
+P014,Discharge,15:52
+P015,Registration,09:00
+P015,Vitals,09:15
+P015,Triage,09:22
+P015,Doctor,10:25
+P015,Billing Counter,10:47
+P015,Pathology,11:09
+P015,Pathology report,11:46
+P015,Triage,11:55
+P015,Doctor,13:16
+P015,Pharmacy,13:36
+P015,Discharge,13:53
+P016,Registration,08:20
+P016,Vitals,08:35
+P016,Triage,08:52
+P016,Doctor,09:40
+P016,Billing Counter,10:11
+P016,Pathology,10:32
+P016,X-Ray,11:06
+P016,X-Ray report,11:42
+P016,Pathology report,13:20
+P016,Doctor,13:40
+P016,Pharmacy,14:13
+P016,Discharge,14:37
+P017,Registration,11:30
+P017,Vitals,12:02
+P017,Triage,12:21
+P017,Doctor,13:27
+P017,Billing Counter,14:02
+P017,X-Ray,14:28
+P017,X-Ray report,15:41
+P017,Doctor,16:41
+P017,Pharmacy,16:57
+P017,Discharge,17:08
+P018,Registration,11:30
+P018,Vitals,11:47
+P018,Triage,12:17
+P018,Doctor,12:44
+P018,Billing Counter,13:15
+P018,Pathology,13:33
+P018,X-Ray,13:50
+P018,X-Ray report,15:14
+P018,Pathology report,16:07
+P018,Doctor,16:49
+P018,Pharmacy,17:21
+P018,Discharge,17:43
+P019,Registration,11:30
+P019,Vitals,11:51
+P019,Triage,12:22
+P019,Doctor,13:59
+P019,Billing Counter,14:14
+P019,Pathology,14:20
+P019,Pathology report,15:28
+P019,Doctor,15:54
+P019,Pharmacy,16:17
+P019,Discharge,16:34
+P020,Registration,10:05
+P020,Vitals,10:17
+P020,Triage,10:42
+P020,Doctor,11:59
+P020,Billing Counter,12:12
+P020,Pathology,12:43
+P020,X-Ray,13:02
+P020,X-Ray report,14:34
+P020,Pathology report,16:07
+P020,Doctor,17:11
+P020,Pharmacy,17:23
+P020,Discharge,17:42
+P021,Registration,10:30
+P021,Vitals,10:56
+P021,Triage,11:16
+P021,Doctor,11:52
+P021,Billing Counter,12:12
+P021,Pathology,12:34
+P021,X-Ray,12:40
+P021,X-Ray report,14:00
+P021,Pathology report,15:29
+P021,Triage,15:38
+P021,Doctor,16:39
+P021,Pharmacy,17:11
+P021,Discharge,17:27
+P022,Registration,09:00
+P022,Vitals,09:29
+P022,Triage,10:04
+P022,Doctor,11:00
+P022,Billing Counter,11:27
+P022,Pathology,11:50
+P022,X-Ray,12:23
+P022,X-Ray report,12:44
+P022,Pathology report,13:45
+P022,Doctor,14:54
+P022,Pharmacy,15:06
+P022,Discharge,15:13
+P023,Registration,10:20
+P023,Vitals,10:44
+P023,Triage,10:49
+P023,Doctor,12:12
+P023,Billing Counter,12:38
+P023,Pathology,12:48
+P023,Pathology report,13:33
+P023,Doctor,13:58
+P023,Pharmacy,14:11
+P023,Discharge,14:32
+P024,Registration,09:50
+P024,Vitals,10:09
+P024,Triage,10:21
+P024,Doctor,11:17
+P024,Billing Counter,11:38
+P024,Pathology,11:45
+P024,X-Ray,11:53
+P024,X-Ray report,13:09
+P024,Pathology report,14:47
+P024,Doctor,16:16
+P024,Pharmacy,16:38
+P024,Discharge,16:51
+P025,Registration,09:50
+P025,Vitals,10:08
+P025,Triage,10:38
+P025,Doctor,11:55
+P025,Billing Counter,12:03
+P025,X-Ray,12:09
+P025,X-Ray report,13:41
+P025,Doctor,14:56
+P025,Pharmacy,15:25
+P025,Discharge,15:50
+P026,Registration,11:50
+P026,Vitals,12:01
+P026,Triage,12:13
+P026,Doctor,12:37
+P026,Billing Counter,12:49
+P026,Pathology,13:23
+P026,X-Ray,13:34
+P026,X-Ray report,14:03
+P026,Pathology report,15:14
+P026,Doctor,15:37
+P026,Pharmacy,15:42
+P026,Discharge,16:00
+P027,Registration,10:50
+P027,Vitals,11:23
+P027,Triage,11:56
+P027,Doctor,13:11
+P027,Billing Counter,13:38
+P027,Pathology,13:52
+P027,Pathology report,14:35
+P027,Doctor,15:33
+P027,Pharmacy,15:41
+P027,Discharge,15:55
+P028,Registration,10:15
+P028,Vitals,10:34
+P028,Triage,10:46
+P028,Doctor,11:59
+P028,Billing Counter,12:11
+P028,Pathology,12:32
+P028,X-Ray,12:58
+P028,X-Ray report,14:13
+P028,Pathology report,15:23
+P028,Doctor,16:54
+P028,Pharmacy,17:05
+P028,Discharge,17:22
+P029,Registration,08:45
+P029,Vitals,09:13
+P029,Triage,09:47
+P029,Doctor,10:20
+P029,Billing Counter,10:29
+P029,Pathology,10:37
+P029,X-Ray,10:56
+P029,X-Ray report,12:01
+P029,Pathology report,13:31
+P029,Doctor,15:09
+P029,Pharmacy,15:14
+P029,Discharge,15:33
+P030,Registration,10:20
+P030,Vitals,10:41
+P030,Triage,11:12
+P030,Doctor,11:44
+P030,Billing Counter,12:07
+P030,Pathology,12:33
+P030,X-Ray,12:48
+P030,X-Ray report,13:18
+P030,Pathology report,14:04
+P030,Triage,14:21
+P030,Doctor,15:04
+P030,Pharmacy,15:22
+P030,Discharge,15:31
+P031,Registration,11:10
+P031,Vitals,11:17
+P031,Triage,11:32
+P031,Doctor,11:56
+P031,Billing Counter,12:04
+P031,X-Ray,12:13
+P031,X-Ray report,13:01
+P031,Doctor,14:19
+P031,Pharmacy,14:37
+P031,Discharge,14:48
+P032,Registration,11:00
+P032,Vitals,11:09
+P032,Triage,11:35
+P032,Doctor,12:00
+P032,Billing Counter,12:16
+P032,Doctor,13:32
+P032,Pharmacy,14:07
+P032,Discharge,14:18
+P033,Registration,09:15
+P033,Vitals,09:41
+P033,Triage,09:46
+P033,Doctor,10:43
+P033,Billing Counter,10:58
+P033,Pathology,11:24
+P033,X-Ray,11:41
+P033,X-Ray report,12:45
+P033,Pathology report,13:34
+P033,Triage,13:40
+P033,Doctor,14:07
+P033,Pharmacy,14:29
+P033,Discharge,14:36
+P034,Registration,08:15
+P034,Vitals,08:45
+P034,Triage,09:18
+P034,Doctor,10:55
+P034,Billing Counter,11:28
+P034,Doctor,12:57
+P034,Pharmacy,13:10
+P034,Discharge,13:28
+P035,Registration,10:30
+P035,Vitals,10:54
+P035,Triage,11:08
+P035,Doctor,12:12
+P035,Billing Counter,12:27
+P035,Pathology,12:54
+P035,X-Ray,13:25
+P035,X-Ray report,13:45
+P035,Pathology report,14:49
+P035,Doctor,16:13
+P035,Pharmacy,16:42
+P035,Discharge,16:47
+P036,Registration,10:05
+P036,Vitals,10:37
+P036,Triage,10:45
+P036,Doctor,12:21
+P036,Billing Counter,12:56
+P036,Pathology,13:24
+P036,X-Ray,13:46
+P036,X-Ray report,14:31
+P036,Pathology report,15:42
+P036,Doctor,16:11
+P036,Pharmacy,16:22
+P036,Discharge,16:33
+P037,Registration,10:40
+P037,Vitals,11:02
+P037,Triage,11:12
+P037,Doctor,12:21
+P037,Billing Counter,12:26
+P037,Pathology,12:39
+P037,X-Ray,13:07
+P037,X-Ray report,13:30
+P037,Pathology report,15:10
+P037,Doctor,15:50
+P037,Pharmacy,16:19
+P037,Discharge,16:30
+P038,Registration,10:10
+P038,Vitals,10:23
+P038,Triage,10:31
+P038,Doctor,11:00
+P038,Billing Counter,11:16
+P038,Pathology,11:22
+P038,Pathology report,12:14
+P038,Doctor,13:20
+P038,Pharmacy,13:29
+P038,Discharge,13:42
+P039,Registration,11:05
+P039,Vitals,11:13
+P039,Triage,11:39
+P039,Doctor,13:07
+P039,Billing Counter,13:15
+P039,Pathology,13:49
+P039,X-Ray,14:04
+P039,X-Ray report,15:00
+P039,Pathology report,15:59
+P039,Doctor,17:15
+P039,Pharmacy,17:50
+P039,Discharge,18:02
+P040,Registration,08:05
+P040,Vitals,08:24
+P040,Triage,08:55
+P040,Doctor,10:04
+P040,Billing Counter,10:35
+P040,Pathology,11:09
+P040,X-Ray,11:42
+P040,X-Ray report,12:47
+P040,Pathology report,13:30
+P040,Doctor,14:06
+P040,Pharmacy,14:23
+P040,Discharge,14:28
+P041,Registration,11:15
+P041,Vitals,11:45
+P041,Triage,12:17
+P041,Doctor,12:47
+P041,Billing Counter,12:57
+P041,Doctor,14:25
+P041,Pharmacy,14:38
+P041,Discharge,14:56
+P042,Registration,09:40
+P042,Vitals,10:10
+P042,Triage,10:33
+P042,Doctor,11:43
+P042,Billing Counter,11:56
+P042,X-Ray,12:19
+P042,X-Ray report,12:45
+P042,Doctor,14:14
+P042,Pharmacy,14:41
+P042,Discharge,14:52
+P043,Registration,10:20
+P043,Vitals,10:25
+P043,Triage,10:51
+P043,Doctor,11:29
+P043,Billing Counter,11:43
+P043,Pathology,11:57
+P043,X-Ray,12:30
+P043,X-Ray report,13:15
+P043,Pathology report,14:29
+P043,Doctor,15:16
+P043,Pharmacy,15:36
+P043,Discharge,15:42
+P044,Registration,11:05
+P044,Vitals,11:31
+P044,Triage,11:37
+P044,Doctor,13:07
+P044,Billing Counter,13:19
+P044,Pathology,13:52
+P044,X-Ray,14:23
+P044,X-Ray report,14:51
+P044,Pathology report,16:08
+P044,Triage,16:19
+P044,Doctor,17:30
+P044,Pharmacy,17:53
+P044,Discharge,18:11
+P045,Registration,10:05
+P045,Vitals,10:11
+P045,Triage,10:46
+P045,Doctor,12:14
+P045,Billing Counter,12:48
+P045,Pathology,13:02
+P045,X-Ray,13:29
+P045,X-Ray report,13:52
+P045,Pathology report,14:38
+P045,Triage,14:44
+P045,Doctor,15:23
+P045,Pharmacy,15:55
+P045,Discharge,16:20
+P046,Registration,08:00
+P046,Vitals,08:24
+P046,Triage,08:41
+P046,Doctor,09:43
+P046,Billing Counter,10:09
+P046,Pathology,10:19
+P046,X-Ray,10:44
+P046,X-Ray report,11:55
+P046,Pathology report,13:09
+P046,Doctor,13:42
+P046,Pharmacy,13:49
+P046,Discharge,13:55
+P047,Registration,09:10
+P047,Vitals,09:36
+P047,Triage,09:59
+P047,Doctor,10:57
+P047,Billing Counter,11:13
+P047,Pathology,11:34
+P047,X-Ray,11:52
+P047,X-Ray report,12:45
+P047,Pathology report,13:41
+P047,Doctor,14:53
+P047,Pharmacy,15:25
+P047,Discharge,15:35
+P048,Registration,08:00
+P048,Vitals,08:29
+P048,Triage,08:53
+P048,Doctor,10:29
+P048,Billing Counter,10:37
+P048,Pathology,10:56
+P048,X-Ray,11:30
+P048,X-Ray report,12:21
+P048,Pathology report,14:01
+P048,Triage,14:21
+P048,Doctor,14:44
+P048,Pharmacy,15:00
+P048,Discharge,15:14
+P049,Registration,11:30
+P049,Vitals,11:53
+P049,Triage,12:16
+P049,Doctor,13:19
+P049,Billing Counter,13:30
+P049,Pathology,13:40
+P049,X-Ray,13:46
+P049,X-Ray report,14:53
+P049,Pathology report,15:19
+P049,Doctor,16:53
+P049,Pharmacy,17:01
+P049,Discharge,17:21
+P050,Registration,10:40
+P050,Vitals,11:04
+P050,Triage,11:11
+P050,Doctor,12:00
+P050,Billing Counter,12:23
+P050,Pathology,12:40
+P050,X-Ray,12:49
+P050,X-Ray report,14:13
+P050,Pathology report,14:45
+P050,Doctor,16:07
+P050,Pharmacy,16:41
+P050,Discharge,17:02
+P051,Registration,09:50
+P051,Vitals,10:22
+P051,Triage,10:40
+P051,Doctor,11:34
+P051,Billing Counter,11:49
+P051,Pathology,12:15
+P051,X-Ray,12:35
+P051,X-Ray report,13:17
+P051,Pathology report,14:07
+P051,Doctor,14:40
+P051,Pharmacy,15:08
+P051,Discharge,15:14
+P052,Registration,09:30
+P052,Vitals,09:40
+P052,Triage,10:06
+P052,Doctor,11:17
+P052,Billing Counter,11:45
+P052,X-Ray,12:15
+P052,X-Ray report,12:57
+P052,Doctor,14:28
+P052,Pharmacy,15:01
+P052,Discharge,15:13
+P053,Registration,09:45
+P053,Vitals,10:01
+P053,Triage,10:27
+P053,Doctor,11:51
+P053,Billing Counter,12:16
+P053,X-Ray,12:35
+P053,X-Ray report,13:23
+P053,Doctor,13:51
+P053,Pharmacy,14:09
+P053,Discharge,14:29
+P054,Registration,11:30
+P054,Vitals,11:37
+P054,Triage,11:52
+P054,Doctor,13:08
+P054,Billing Counter,13:27
+P054,Pathology,13:32
+P054,Pathology report,14:06
+P054,Doctor,14:30
+P054,Pharmacy,14:57
+P054,Discharge,15:13
+P055,Registration,10:30
+P055,Vitals,10:56
+P055,Triage,11:30
+P055,Doctor,13:01
+P055,Billing Counter,13:21
+P055,Pathology,13:49
+P055,X-Ray,14:18
+P055,X-Ray report,15:53
+P055,Pathology report,16:56
+P055,Doctor,17:45
+P055,Pharmacy,17:51
+P055,Discharge,18:01
+P056,Registration,09:45
+P056,Vitals,10:10
+P056,Triage,10:41
+P056,Doctor,11:02
+P056,Billing Counter,11:18
+P056,Pathology,11:53
+P056,Pathology report,12:29
+P056,Doctor,13:23
+P056,Pharmacy,13:58
+P056,Discharge,14:14
+P057,Registration,10:05
+P057,Vitals,10:14
+P057,Triage,10:35
+P057,Doctor,10:56
+P057,Billing Counter,11:20
+P057,Pathology,11:40
+P057,X-Ray,12:01
+P057,X-Ray report,13:14
+P057,Pathology report,14:25
+P057,Triage,14:45
+P057,Doctor,15:13
+P057,Pharmacy,15:43
+P057,Discharge,15:54
+P058,Registration,09:30
+P058,Vitals,09:38
+P058,Triage,09:55
+P058,Doctor,10:24
+P058,Billing Counter,10:40
+P058,Pathology,11:01
+P058,Pathology report,12:09
+P058,Doctor,12:42
+P058,Pharmacy,12:53
+P058,Discharge,13:06
+P059,Registration,08:05
+P059,Vitals,08:23
+P059,Triage,08:54
+P059,Doctor,10:11
+P059,Billing Counter,10:45
+P059,Pathology,11:13
+P059,X-Ray,11:31
+P059,X-Ray report,12:48
+P059,Pathology report,13:13
+P059,Doctor,14:26
+P059,Pharmacy,14:32
+P059,Discharge,14:40
+P060,Registration,10:50
+P060,Vitals,11:06
+P060,Triage,11:22
+P060,Doctor,11:50
+P060,Billing Counter,12:05
+P060,Pathology,12:29
+P060,X-Ray,12:39
+P060,X-Ray report,13:14
+P060,Pathology report,13:37
+P060,Doctor,14:53
+P060,Pharmacy,15:10
+P060,Discharge,15:31
+P061,Registration,10:00
+P061,Vitals,10:14
+P061,Triage,10:23
+P061,Doctor,11:23
+P061,Billing Counter,11:47
+P061,Pathology,12:07
+P061,X-Ray,12:23
+P061,X-Ray report,13:11
+P061,Pathology report,14:39
+P061,Doctor,15:03
+P061,Pharmacy,15:27
+P061,Discharge,15:47
+P062,Registration,09:15
+P062,Vitals,09:47
+P062,Triage,10:01
+P062,Doctor,10:41
+P062,Billing Counter,10:52
+P062,Pathology,11:11
+P062,X-Ray,11:31
+P062,X-Ray report,12:33
+P062,Pathology report,13:53
+P062,Doctor,15:33
+P062,Pharmacy,15:52
+P062,Discharge,16:11
+P063,Registration,10:40
+P063,Vitals,11:12
+P063,Triage,11:31
+P063,Doctor,12:03
+P063,Billing Counter,12:37
+P063,Pathology,13:09
+P063,X-Ray,13:33
+P063,X-Ray report,14:34
+P063,Pathology report,15:42
+P063,Doctor,17:14
+P063,Pharmacy,17:37
+P063,Discharge,18:01
+P064,Registration,09:15
+P064,Vitals,09:36
+P064,Triage,09:55
+P064,Doctor,11:33
+P064,Billing Counter,11:46
+P064,Pathology,12:10
+P064,X-Ray,12:22
+P064,X-Ray report,13:19
+P064,Pathology report,14:01
+P064,Doctor,15:27
+P064,Pharmacy,15:39
+P064,Discharge,15:57
+P065,Registration,08:40
+P065,Vitals,09:14
+P065,Triage,09:23
+P065,Doctor,10:04
+P065,Billing Counter,10:20
+P065,Pathology,10:47
+P065,X-Ray,11:10
+P065,X-Ray report,11:46
+P065,Pathology report,12:23
+P065,Doctor,13:21
+P065,Pharmacy,13:39
+P065,Discharge,13:48
+P066,Registration,09:45
+P066,Vitals,09:59
+P066,Triage,10:10
+P066,Doctor,11:45
+P066,Billing Counter,12:09
+P066,Pathology,12:15
+P066,Pathology report,13:14
+P066,Doctor,13:58
+P066,Pharmacy,14:22
+P066,Discharge,14:41
+P067,Registration,08:10
+P067,Vitals,08:20
+P067,Triage,08:35
+P067,Doctor,09:00
+P067,Billing Counter,09:08
+P067,Pathology,09:20
+P067,Pathology report,09:45
+P067,Doctor,10:49
+P067,Pharmacy,11:00
+P067,Discharge,11:07
+P068,Registration,09:45
+P068,Vitals,09:51
+P068,Triage,10:15
+P068,Doctor,11:05
+P068,Billing Counter,11:30
+P068,X-Ray,11:38
+P068,X-Ray report,12:51
+P068,Doctor,13:30
+P068,Pharmacy,13:42
+P068,Discharge,13:56
+P069,Registration,09:45
+P069,Vitals,10:20
+P069,Triage,10:25
+P069,Doctor,12:03
+P069,Billing Counter,12:23
+P069,Pathology,12:37
+P069,X-Ray,12:55
+P069,X-Ray report,14:10
+P069,Pathology report,15:46
+P069,Doctor,16:26
+P069,Pharmacy,17:00
+P069,Discharge,17:23
+P070,Registration,09:15
+P070,Vitals,09:36
+P070,Triage,09:45
+P070,Doctor,11:20
+P070,Billing Counter,11:47
+P070,Pathology,12:22
+P070,Pathology report,13:07
+P070,Doctor,13:47
+P070,Pharmacy,14:08
+P070,Discharge,14:18
+P071,Registration,09:45
+P071,Vitals,09:55
+P071,Triage,10:22
+P071,Doctor,10:44
+P071,Billing Counter,11:04
+P071,X-Ray,11:32
+P071,X-Ray report,13:12
+P071,Doctor,14:23
+P071,Pharmacy,14:35
+P071,Discharge,14:57
+P072,Registration,09:40
+P072,Vitals,09:53
+P072,Triage,10:06
+P072,Doctor,11:37
+P072,Billing Counter,11:51
+P072,Pathology,12:04
+P072,X-Ray,12:16
+P072,X-Ray report,12:55
+P072,Pathology report,14:34
+P072,Triage,14:45
+P072,Doctor,15:29
+P072,Pharmacy,15:34
+P072,Discharge,15:41
+P073,Registration,11:50
+P073,Vitals,12:05
+P073,Triage,12:26
+P073,Doctor,12:55
+P073,Billing Counter,13:13
+P073,Pathology,13:35
+P073,X-Ray,13:49
+P073,X-Ray report,14:21
+P073,Pathology report,15:38
+P073,Doctor,16:01
+P073,Pharmacy,16:10
+P073,Discharge,16:23
+P074,Registration,10:10
+P074,Vitals,10:24
+P074,Triage,10:32
+P074,Doctor,11:55
+P074,Billing Counter,12:15
+P074,Pathology,12:31
+P074,X-Ray,12:47
+P074,X-Ray report,13:22
+P074,Pathology report,14:11
+P074,Doctor,15:16
+P074,Pharmacy,15:51
+P074,Discharge,16:04
+P075,Registration,10:50
+P075,Vitals,11:06
+P075,Triage,11:37
+P075,Doctor,12:54
+P075,Billing Counter,13:13
+P075,Doctor,14:22
+P075,Pharmacy,14:31
+P075,Discharge,14:41
+P076,Registration,09:10
+P076,Vitals,09:39
+P076,Triage,09:48
+P076,Doctor,11:18
+P076,Billing Counter,11:30
+P076,Pathology,11:58
+P076,X-Ray,12:28
+P076,X-Ray report,13:42
+P076,Pathology report,14:49
+P076,Doctor,15:57
+P076,Pharmacy,16:07
+P076,Discharge,16:20
+P077,Registration,10:40
+P077,Vitals,11:07
+P077,Triage,11:41
+P077,Doctor,12:30
+P077,Billing Counter,12:50
+P077,Pathology,13:02
+P077,X-Ray,13:28
+P077,X-Ray report,15:04
+P077,Pathology report,15:53
+P077,Doctor,16:32
+P077,Pharmacy,17:07
+P077,Discharge,17:31
+P078,Registration,10:45
+P078,Vitals,10:50
+P078,Triage,11:15
+P078,Doctor,12:34
+P078,Billing Counter,12:49
+P078,Pathology,13:08
+P078,X-Ray,13:34
+P078,X-Ray report,14:00
+P078,Pathology report,14:50
+P078,Doctor,15:12
+P078,Pharmacy,15:25
+P078,Discharge,15:34
+P079,Registration,10:10
+P079,Vitals,10:20
+P079,Triage,10:32
+P079,Doctor,11:59
+P079,Billing Counter,12:08
+P079,Pathology,12:18
+P079,X-Ray,12:43
+P079,X-Ray report,13:38
+P079,Pathology report,14:49
+P079,Doctor,16:19
+P079,Pharmacy,16:39
+P079,Discharge,16:45
+P080,Registration,11:40
+P080,Vitals,12:10
+P080,Triage,12:19
+P080,Doctor,12:48
+P080,Billing Counter,13:00
+P080,Pathology,13:28
+P080,Pathology report,14:44
+P080,Doctor,15:42
+P080,Pharmacy,16:15
+P080,Discharge,16:22
+P081,Registration,10:10
+P081,Vitals,10:32
+P081,Triage,11:00
+P081,Doctor,12:21
+P081,Billing Counter,12:45
+P081,Pathology,12:51
+P081,X-Ray,12:57
+P081,X-Ray report,13:47
+P081,Pathology report,14:25
+P081,Doctor,15:44
+P081,Pharmacy,16:13
+P081,Discharge,16:31
+P082,Registration,09:05
+P082,Vitals,09:36
+P082,Triage,10:00
+P082,Doctor,11:07
+P082,Billing Counter,11:39
+P082,X-Ray,11:48
+P082,X-Ray report,12:32
+P082,Doctor,13:20
+P082,Pharmacy,13:25
+P082,Discharge,13:32
+P083,Registration,08:50
+P083,Vitals,09:04
+P083,Triage,09:29
+P083,Doctor,10:13
+P083,Billing Counter,10:28
+P083,Pathology,10:58
+P083,X-Ray,11:15
+P083,X-Ray report,12:55
+P083,Pathology report,13:40
+P083,Doctor,15:06
+P083,Pharmacy,15:30
+P083,Discharge,15:41
+P084,Registration,09:00
+P084,Vitals,09:32
+P084,Triage,09:46
+P084,Doctor,10:41
+P084,Billing Counter,11:13
+P084,Pathology,11:33
+P084,X-Ray,11:47
+P084,X-Ray report,12:24
+P084,Pathology report,13:52
+P084,Doctor,15:02
+P084,Pharmacy,15:17
+P084,Discharge,15:26
+P085,Registration,09:10
+P085,Vitals,09:26
+P085,Triage,09:34
+P085,Doctor,11:12
+P085,Billing Counter,11:31
+P085,Pathology,12:03
+P085,Pathology report,12:30
+P085,Doctor,12:52
+P085,Pharmacy,13:08
+P085,Discharge,13:32
+P086,Registration,08:40
+P086,Vitals,08:48
+P086,Triage,08:58
+P086,Doctor,09:43
+P086,Billing Counter,10:14
+P086,Pathology,10:43
+P086,X-Ray,11:18
+P086,X-Ray report,12:16
+P086,Pathology report,13:28
+P086,Doctor,14:19
+P086,Pharmacy,14:38
+P086,Discharge,15:01
+P087,Registration,10:15
+P087,Vitals,10:42
+P087,Triage,11:11
+P087,Doctor,12:03
+P087,Billing Counter,12:37
+P087,Pathology,13:02
+P087,X-Ray,13:22
+P087,X-Ray report,14:29
+P087,Pathology report,15:54
+P087,Doctor,17:28
+P087,Pharmacy,17:44
+P087,Discharge,17:54
+P088,Registration,11:45
+P088,Vitals,12:03
+P088,Triage,12:31
+P088,Doctor,12:57
+P088,Billing Counter,13:23
+P088,Pathology,13:39
+P088,X-Ray,13:56
+P088,X-Ray report,15:19
+P088,Pathology report,16:06
+P088,Triage,16:17
+P088,Doctor,17:19
+P088,Pharmacy,17:24
+P088,Discharge,17:35
+P089,Registration,09:10
+P089,Vitals,09:19
+P089,Triage,09:53
+P089,Doctor,11:27
+P089,Billing Counter,11:48
+P089,X-Ray,12:05
+P089,X-Ray report,13:13
+P089,Doctor,13:57
+P089,Pharmacy,14:31
+P089,Discharge,14:36
+P090,Registration,08:15
+P090,Vitals,08:47
+P090,Triage,09:07
+P090,Doctor,10:10
+P090,Billing Counter,10:25
+P090,Pathology,10:36
+P090,X-Ray,11:02
+P090,X-Ray report,12:12
+P090,Pathology report,13:22
+P090,Doctor,14:53
+P090,Pharmacy,15:28
+P090,Discharge,15:35
+P091,Registration,10:40
+P091,Vitals,10:58
+P091,Triage,11:08
+P091,Doctor,12:09
+P091,Billing Counter,12:21
+P091,Pathology,12:37
+P091,X-Ray,12:59
+P091,X-Ray report,14:33
+P091,Pathology report,16:07
+P091,Doctor,16:31
+P091,Pharmacy,16:41
+P091,Discharge,16:59
+P092,Registration,10:45
+P092,Vitals,10:50
+P092,Triage,11:14
+P092,Doctor,11:41
+P092,Billing Counter,11:58
+P092,Pathology,12:05
+P092,X-Ray,12:15
+P092,X-Ray report,12:47
+P092,Pathology report,13:23
+P092,Triage,13:38
+P092,Doctor,14:22
+P092,Pharmacy,14:55
+P092,Discharge,15:08
+P093,Registration,09:15
+P093,Vitals,09:36
+P093,Triage,09:47
+P093,Doctor,11:08
+P093,Billing Counter,11:23
+P093,Pathology,11:45
+P093,X-Ray,11:54
+P093,X-Ray report,12:35
+P093,Pathology report,13:58
+P093,Triage,14:18
+P093,Doctor,15:52
+P093,Pharmacy,16:18
+P093,Discharge,16:42
+P094,Registration,09:05
+P094,Vitals,09:21
+P094,Triage,09:53
+P094,Doctor,10:22
+P094,Billing Counter,10:31
+P094,Pathology,11:05
+P094,X-Ray,11:24
+P094,X-Ray report,12:58
+P094,Pathology report,14:26
+P094,Doctor,15:15
+P094,Pharmacy,15:46
+P094,Discharge,16:08
+P095,Registration,09:15
+P095,Vitals,09:28
+P095,Triage,09:57
+P095,Doctor,11:36
+P095,Billing Counter,11:50
+P095,Pathology,11:58
+P095,Pathology report,12:48
+P095,Doctor,13:38
+P095,Pharmacy,13:43
+P095,Discharge,13:56
+P096,Registration,10:30
+P096,Vitals,10:44
+P096,Triage,10:49
+P096,Doctor,11:17
+P096,Billing Counter,11:44
+P096,X-Ray,12:12
+P096,X-Ray report,13:07
+P096,Doctor,13:37
+P096,Pharmacy,14:06
+P096,Discharge,14:27
+P097,Registration,11:15
+P097,Vitals,11:39
+P097,Triage,11:50
+P097,Doctor,13:21
+P097,Billing Counter,13:39
+P097,Pathology,13:59
+P097,X-Ray,14:05
+P097,X-Ray report,14:34
+P097,Pathology report,15:01
+P097,Doctor,15:34
+P097,Pharmacy,15:42
+P097,Discharge,16:02
+P098,Registration,11:15
+P098,Vitals,11:20
+P098,Triage,11:54
+P098,Doctor,13:24
+P098,Billing Counter,13:52
+P098,Pathology,14:18
+P098,X-Ray,14:29
+P098,X-Ray report,15:33
+P098,Pathology report,16:12
+P098,Doctor,16:48
+P098,Pharmacy,17:23
+P098,Discharge,17:46
+P099,Registration,09:20
+P099,Vitals,09:39
+P099,Triage,09:44
+P099,Doctor,10:15
+P099,Billing Counter,10:28
+P099,X-Ray,11:00
+P099,X-Ray report,12:24
+P099,Doctor,12:53
+P099,Pharmacy,13:06
+P099,Discharge,13:24
+P100,Registration,11:30
+P100,Vitals,11:54
+P100,Triage,12:28
+P100,Doctor,13:56
+P100,Billing Counter,14:30
+P100,Pathology,14:54
+P100,Pathology report,16:32
+P100,Triage,16:46
+P100,Doctor,18:14
+P100,Pharmacy,18:42
+P100,Discharge,19:04
