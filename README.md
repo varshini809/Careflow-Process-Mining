@@ -403,3 +403,151 @@ The project includes a Python event-log generator and a CSV dataset containing 1
 The dataset includes different hospital pathways, simulated delays, and loop-backs.
 
 These event logs provide a foundation for further process mining, bottleneck analysis, and hospital workflow visualization.
+
+
+---
+
+## 17. Dataset Version 2 – Enhanced Patient Event Logs
+
+### Overview
+
+The CareFlow dataset was enhanced to improve its suitability for
+clinical pathway process mining and hospital workflow analysis.
+
+The updated dataset contains 100 synthetic patient journeys with
+additional loop-backs, simulated delays, and department information.
+
+### Updated Dataset Statistics
+
+| Parameter | Value |
+|---|---|
+| Total Patients | 100 |
+| Total Event Records | 1,162 |
+| Total Columns | 5 |
+| Patients with Triage Loop-backs | 30 |
+| Patients Affected by Additional Delays | 40 |
+| Additional Delays Introduced | 91 |
+| Missing Values | 0 |
+| Chronological Errors | 0 |
+| Dataset Type | Synthetic |
+
+### Updated Dataset Columns
+
+| Column | Description |
+|---|---|
+| Case_ID | Unique identifier for each patient journey |
+| Activity_Name | Hospital activity performed |
+| Date | Date of the recorded activity |
+| Time | Time of the recorded activity |
+| Department | Hospital department responsible for the activity |
+
+### Example Dataset
+
+| Case_ID | Activity_Name | Date | Time | Department |
+|---|---|---|---|---|
+| P001 | Registration | 2026-10-01 | 08:20 | Reception |
+| P001 | Vitals | 2026-10-01 | 08:53 | Nursing |
+| P001 | Triage | 2026-10-01 | 09:25 | Emergency |
+| P001 | Doctor | 2026-10-01 | 09:49 | Consultation |
+| P001 | Billing Counter | 2026-10-01 | 10:06 | Billing |
+
+### Additional Loop-backs
+
+The original dataset contained 16 patients with repeated Triage visits.
+
+Version 2 introduces additional Triage and Doctor events for
+14 patients.
+
+This increases the total number of patients with Triage loop-backs
+to 30.
+
+These loop-backs simulate patients returning to an earlier
+hospital stage for reassessment.
+
+### Additional Delays
+
+Additional waiting periods were introduced to simulate
+potential hospital bottlenecks.
+
+The simulation includes delays associated with:
+
+- Triage to Doctor
+- Pathology to Pathology Report
+- X-Ray to X-Ray Report
+
+A total of 91 additional delays were introduced,
+affecting 40 patients.
+
+### Data Validation
+
+The updated dataset was validated using Python and Pandas.
+
+Validation included:
+
+- Checking missing values.
+- Confirming 100 unique patient journeys.
+- Checking chronological event ordering.
+- Verifying the total number of event records.
+- Identifying repeated Triage activities.
+
+Final validation confirmed:
+
+- 0 missing values.
+- 0 chronological ordering errors.
+- 100 unique patients.
+- 1,162 event records.
+
+### Python Script
+
+File: `careflow_dataset_v2.py`
+
+The script uses Python and Pandas to:
+
+1. Load the original cleaned CSV dataset.
+2. Separate Date and Time information.
+3. Assign hospital departments.
+4. Introduce additional loop-backs.
+5. Simulate additional delays.
+6. Validate patient event sequences.
+7. Export the updated dataset.
+
+### How to Run Version 2
+
+Install Pandas:
+
+```bash
+python -m pip install pandas
+```
+
+Run the script:
+
+```bash
+python careflow_dataset_v2.py
+```
+
+The script generates:
+
+`careflow_100_patients_final.csv`
+
+### Final Output
+
+The updated CSV contains five columns:
+
+`Case_ID, Activity_Name, Date, Time, Department`
+
+The dataset can be used for:
+
+- Process discovery.
+- Patient journey analysis.
+- Loop-back identification.
+- Hospital bottleneck analysis.
+- Department-level performance analysis.
+- Process visualization using PM4Py and Power BI.
+
+For process-mining applications requiring a complete timestamp,
+the Date and Time columns can be combined during preprocessing.
+
+### Important Note
+
+All patient records, timestamps, delays, and hospital pathways
+are synthetic and intended for educational and analytical purposes.
