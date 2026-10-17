@@ -285,6 +285,38 @@ final_df = df[
     ["Case_ID", "Activity_Name", "Date", "Time", "Department"]
 ].copy()
 
+from datetime import datetime, timedelta
+
+# Distribute 100 patients across 30 days
+start_date = datetime(2026, 10, 1)
+
+# Get unique patient IDs
+patient_ids = final_df["Case_ID"].unique()
+
+# Assign one date to each patient
+patient_dates = {}
+
+for i, patient_id in enumerate(patient_ids):
+    day_offset = i % 30
+
+    patient_date = start_date + timedelta(days=day_offset)
+
+    patient_dates[patient_id] = patient_date.strftime("%Y-%m-%d")
+
+# Apply the same date to every activity of each patient
+final_df["Date"] = final_df["Case_ID"].map(patient_dates)
+
+# Verify patients per day
+print("\nPatients per day:")
+print(final_df.groupby("Date")["Case_ID"].nunique())
+
+# Verify each patient has only one date
+multiple_dates = (
+    final_df.groupby("Case_ID")["Date"].nunique() > 1
+).sum()
+
+print("\nPatients with multiple dates:", multiple_dates)
+
 # Export the final dataset
 final_df.to_csv(
     "careflow_100_patients_final.csv",
