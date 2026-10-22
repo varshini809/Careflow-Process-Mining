@@ -551,3 +551,132 @@ the Date and Time columns can be combined during preprocessing.
 
 All patient records, timestamps, delays, and hospital pathways
 are synthetic and intended for educational and analytical purposes.
+
+
+## 18. Dataset Version 3 – Realistic Patient Pathways
+
+### Overview
+
+CareFlow Dataset V3 is an improved synthetic hospital patient event log designed for clinical pathway process mining.
+
+This version introduces greater variation in patient journeys, additional loop-backs, realistic waiting times, emergency cases, and early departures.
+
+The objective is to create a more diverse dataset for identifying hospital bottlenecks, analyzing patient flow, and discovering clinical pathways.
+
+### Files
+
+* `careflow_dataset_v3.py` – Python script used to generate the dataset.
+* `careflow_100_patients_v3.csv` – Generated dataset containing 100 patient journeys.
+
+### Dataset Structure
+
+The dataset contains five columns:
+
+| Column        | Description                                      |
+| ------------- | ------------------------------------------------ |
+| Case_ID       | Unique patient identifier                        |
+| Activity_Name | Hospital activity performed                      |
+| Date          | Date of the activity                             |
+| Time          | Time of the activity                             |
+| Department    | Hospital department associated with the activity |
+
+### Dataset Statistics
+
+| Metric                                   | Result |
+| ---------------------------------------- | ------ |
+| Total patients                           | 100    |
+| Total event records                      | 979    |
+| Unique patient pathways                  | 18     |
+| Patients in the most common pathway      | 10     |
+| Emergency patients                       | 6      |
+| Early departures                         | 3      |
+| Patients with repeat Doctor visits       | 78     |
+| Patients with Triage loop-backs          | 18     |
+| Patients with 60–120-minute report waits | 35     |
+| Days covered                             | 30     |
+| Minimum patients per day                 | 1      |
+| Maximum patients per day                 | 6      |
+
+### Improvements Introduced in V3
+
+**1. Increased pathway diversity**
+
+The dataset contains 18 different patient pathways, compared with 9 in the previous version.
+
+Patients may follow different sequences depending on their simulated treatment requirements.
+
+**2. Optional diagnostic procedures**
+
+Some patients undergo Pathology tests without X-Ray examinations, while others undergo X-Ray examinations without Pathology tests.
+
+Other patients undergo both procedures in different orders.
+
+**3. Additional Doctor loop-backs**
+
+Patients may return to the Doctor multiple times during their hospital visit.
+
+Example:
+
+Registration → Vitals → Triage → Doctor → Pathology → Pathology report → Doctor → X-Ray → X-Ray report → Doctor → Pharmacy → Discharge
+
+**4. Realistic waiting times**
+
+Additional waiting periods of 60–120 minutes have been introduced, particularly before diagnostic reports become available.
+
+These delays help simulate hospital waiting times and potential bottlenecks.
+
+**5. Emergency patient journeys**
+
+Six simulated emergency patients follow pathways that prioritize access to the Doctor.
+
+**6. Early departures**
+
+Three patients leave the hospital before completing their planned treatment pathways.
+
+**7. Variable daily patient volumes**
+
+Patient arrivals are distributed across 30 days, with daily volumes ranging from 1 to 6 patients.
+
+This introduces variation between relatively busy and quiet days.
+
+### Data Validation
+
+The Python script performs validation checks to ensure:
+
+* Every patient has a unique Case_ID.
+* Patient activities follow chronological order.
+* All activities for a patient occur on the same date.
+* Diagnostic reports occur after their corresponding tests.
+* The dataset contains 100 patient journeys.
+
+All reported validation checks passed.
+
+### Running the Script
+
+Open the project folder in VS Code and execute:
+
+```bash
+python careflow_dataset_v3.py
+```
+
+The script generates:
+
+`careflow_100_patients_v3.csv`
+
+### Applications
+
+The improved dataset can be used for:
+
+* Process discovery using PM4Py.
+* Patient pathway analysis.
+* Identifying repeated hospital activities.
+* Detecting waiting-time bottlenecks.
+* Comparing emergency and routine patient journeys.
+* Analyzing daily patient volumes.
+* Creating interactive dashboards using Power BI.
+
+### Important Note
+
+This dataset is synthetically generated for educational and analytical purposes. It does not contain actual patient records.
+
+**Dataset V3 is the recommended version for further CareFlow analysis and process mining.**
