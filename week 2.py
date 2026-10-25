@@ -47,3 +47,37 @@ print(df[[
 # Summary of wait times (first activity per patient has no previous wait)
 print("\nWait-time summary in minutes:")
 print(df["Wait_Minutes"].describe())
+
+
+# A loop-back occurs when a patient repeats an activity
+df["Is_Loopback"] = (
+    df.groupby("Case_ID")["Activity_Name"]
+      .transform(lambda activities: activities.duplicated(keep="first"))
+)
+
+loopbacks = df[df["Is_Loopback"]]
+
+print("\nLoop-back events:")
+print(
+    loopbacks[["Case_ID", "Activity_Name", "DateTime"]]
+    .to_string(index=False)
+)
+print(f"\nTotal loop-back events: {len(loopbacks)}")
+
+# Find the activity with the longest average wait before it starts
+activity_waits = (
+    df.dropna(subset=["Wait_Minutes"])
+      .groupby("Activity_Name")["Wait_Minutes"]
+      .agg(["mean", "median", "count"])
+      .sort_values("mean", ascending=False)
+)
+
+print("\nWait-time summary by activity (minutes):")
+print(activity_waits)
+
+if not activity_waits.empty:
+    slowest = activity_waits.index[0]
+    print(
+        f"\nSlowest activity by average preceding wait: {slowest} "
+        f"({activity_waits.iloc[0]['mean']:.1f} minutes average)"
+    )
