@@ -12,3 +12,10 @@ This README summarizes the work completed so far in the CareFlow process-mining 
 
 The Week 1 CSV used these fields: `Case ID`, `Activity Name`, and `Timestamp`.
 
+## Dataset Columns
+
+- Case_ID: Unique patient case identifier.
+- Activity_Name: Patient activity performed.
+- Date: Date of the patient activity.
+- Time: Time when the activity occurred.
+- Department: Hospital department handling the activity.
