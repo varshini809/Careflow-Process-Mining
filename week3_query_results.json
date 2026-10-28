@@ -1,0 +1,142 @@
+{
+  "input": 979,
+  "cleaned": 979,
+  "cases": 100,
+  "activityTypes": 12,
+  "missing": 0,
+  "duplicates": 0,
+  "activity": [
+    {
+      "Activity_Name": "Registration",
+      "Patients": 100
+    },
+    {
+      "Activity_Name": "Vitals",
+      "Patients": 100
+    },
+    {
+      "Activity_Name": "Doctor",
+      "Patients": 98
+    },
+    {
+      "Activity_Name": "Discharge",
+      "Patients": 97
+    },
+    {
+      "Activity_Name": "Triage",
+      "Patients": 97
+    },
+    {
+      "Activity_Name": "Billing Counter",
+      "Patients": 81
+    },
+    {
+      "Activity_Name": "Pharmacy",
+      "Patients": 80
+    },
+    {
+      "Activity_Name": "Pathology",
+      "Patients": 55
+    },
+    {
+      "Activity_Name": "Pathology report",
+      "Patients": 55
+    },
+    {
+      "Activity_Name": "X-Ray",
+      "Patients": 51
+    },
+    {
+      "Activity_Name": "X-Ray report",
+      "Patients": 51
+    },
+    {
+      "Activity_Name": "Left Early",
+      "Patients": 3
+    }
+  ],
+  "averageWaits": [
+    {
+      "Activity_Name": "Pathology",
+      "Average_Wait_Minutes": 59.71
+    },
+    {
+      "Activity_Name": "X-Ray",
+      "Average_Wait_Minutes": 56.51
+    },
+    {
+      "Activity_Name": "Triage",
+      "Average_Wait_Minutes": 20.77
+    },
+    {
+      "Activity_Name": "X-Ray report",
+      "Average_Wait_Minutes": 20.12
+    },
+    {
+      "Activity_Name": "Pathology report",
+      "Average_Wait_Minutes": 20.11
+    },
+    {
+      "Activity_Name": "Billing Counter",
+      "Average_Wait_Minutes": 16.3
+    },
+    {
+      "Activity_Name": "Vitals",
+      "Average_Wait_Minutes": 11.65
+    },
+    {
+      "Activity_Name": "Doctor",
+      "Average_Wait_Minutes": 11.19
+    },
+    {
+      "Activity_Name": "Registration",
+      "Average_Wait_Minutes": 11.17
+    },
+    {
+      "Activity_Name": "Pharmacy",
+      "Average_Wait_Minutes": 8.72
+    }
+  ],
+  "topWaits": [
+    {
+      "Case_ID": "P079",
+      "From_Activity": "Pathology",
+      "From_Timestamp": "2026-10-27 09:55:00",
+      "To_Activity": "Pathology report",
+      "To_Timestamp": "2026-10-27 11:53:00",
+      "Wait_Minutes": 118
+    },
+    {
+      "Case_ID": "P038",
+      "From_Activity": "Pathology",
+      "From_Timestamp": "2026-10-27 09:39:00",
+      "To_Activity": "Pathology report",
+      "To_Timestamp": "2026-10-27 11:35:00",
+      "Wait_Minutes": 116
+    },
+    {
+      "Case_ID": "P058",
+      "From_Activity": "X-Ray",
+      "From_Timestamp": "2026-10-30 11:41:00",
+      "To_Activity": "X-Ray report",
+      "To_Timestamp": "2026-10-30 13:36:00",
+      "Wait_Minutes": 115
+    },
+    {
+      "Case_ID": "P098",
+      "From_Activity": "Pathology",
+      "From_Timestamp": "2026-10-28 10:08:00",
+      "To_Activity": "Pathology report",
+      "To_Timestamp": "2026-10-28 12:02:00",
+      "Wait_Minutes": 114
+    },
+    {
+      "Case_ID": "P008",
+      "From_Activity": "X-Ray",
+      "From_Timestamp": "2026-10-12 09:54:00",
+      "To_Activity": "X-Ray report",
+      "To_Timestamp": "2026-10-12 11:45:00",
+      "Wait_Minutes": 111
+    }
+  ]
+}
