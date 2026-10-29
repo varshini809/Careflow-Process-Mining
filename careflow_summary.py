@@ -116,6 +116,36 @@ print(f"Longest interval between activities: {longest_wait:.2f} minutes")
 print("Patients with intervals >= 60 minutes:", patients_wait_60)
 print("Patients with intervals >= 120 minutes:", patients_wait_120)
 
+# 9. Detailed Loop-Back Analysis
+print("\n8. DETAILED LOOP-BACK ANALYSIS")
+
+# Count visits to each activity for every patient
+activity_visits = (
+    df.groupby(["Case_ID", "Activity_Name"])
+    .size()
+    .reset_index(name="Visit_Count")
+)
+
+# Identify activities visited more than once
+repeated_activities = activity_visits[
+    activity_visits["Visit_Count"] > 1
+]
+
+# Count patients with at least one repeated activity
+patients_with_loopbacks = repeated_activities["Case_ID"].nunique()
+
+print("Patients with at least one loop-back:", patients_with_loopbacks)
+
+# Count patients revisiting each activity
+loopback_counts = (
+    repeated_activities.groupby("Activity_Name")["Case_ID"]
+    .nunique()
+    .sort_values(ascending=False)
+)
+
+print("\nLoop-backs by activity:")
+print(loopback_counts.to_string())
+
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
