@@ -82,6 +82,40 @@ print("Days covered:", len(daily_patients))
 print("Minimum patients per day:", daily_patients.min())
 print("Maximum patients per day:", daily_patients.max())
 
+# 8. Waiting Time Analysis
+print("\n7. WAITING TIME ANALYSIS")
+
+# Calculate time difference between consecutive activities
+# for each patient
+df["Wait_Minutes"] = (
+    df.groupby("Case_ID")["Timestamp"]
+    .diff()
+    .dt.total_seconds() / 60
+)
+
+# Remove the first activity of each patient
+# because it has no previous activity
+waiting_times = df["Wait_Minutes"].dropna()
+
+# Calculate waiting time statistics
+average_wait = waiting_times.mean()
+longest_wait = waiting_times.max()
+
+# Count patients experiencing long waits
+patients_wait_60 = df.loc[
+    df["Wait_Minutes"] >= 60, "Case_ID"
+].nunique()
+
+patients_wait_120 = df.loc[
+    df["Wait_Minutes"] >= 120, "Case_ID"
+].nunique()
+
+print(f"Average interval between activities: {average_wait:.2f} minutes")
+print(f"Longest interval between activities: {longest_wait:.2f} minutes")
+
+print("Patients with intervals >= 60 minutes:", patients_wait_60)
+print("Patients with intervals >= 120 minutes:", patients_wait_120)
+
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
