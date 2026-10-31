@@ -680,3 +680,93 @@ The improved dataset can be used for:
 This dataset is synthetically generated for educational and analytical purposes. It does not contain actual patient records.
 
 **Dataset V3 is the recommended version for further CareFlow analysis and process mining.**
+
+## Week 3: Final Dataset Validation and Process Analysis
+
+### Dataset Overview
+
+The CareFlow project uses a synthetic hospital event log to simulate patient journeys across different hospital departments.
+
+The dataset includes:
+
+* **Total patients:** 100
+* **Total events:** 979
+* **Unique patient pathways:** 18
+* **Date coverage:** 30 days
+* **Dataset file:** `careflow_100_patients_v3.csv`
+
+### Patient Pathway Variations
+
+The dataset includes 18 distinct patient pathways representing different hospital scenarios.
+
+These include:
+
+* Routine patient consultations
+* Patients requiring pathology tests
+* Patients requiring X-ray examinations
+* Patients requiring multiple diagnostic tests
+* Emergency patient pathways
+* Patients leaving before completing all activities
+* Patients returning to previously visited departments
+
+### Loop-Back Analysis
+
+Loop-backs represent patients returning to an activity or department they have already visited.
+
+The dataset includes repeated Doctor consultations and other activity revisits.
+
+The analysis is implemented in `careflow_summary.py`.
+
+### Long Intervals and Bottleneck Analysis
+
+The dataset contains extended intervals between hospital activities, including intervals of 60 minutes or more.
+
+The analysis covers:
+
+* Average interval between consecutive activities
+* Longest interval between activities
+* Patients experiencing extended intervals
+* Activity transitions with the highest average elapsed times
+* Department-level interval analysis
+* Long intervals grouped by destination department
+
+These measurements help identify potential hospital process bottlenecks. Elapsed time between events does not necessarily represent waiting time alone.
+
+### Data Quality Validation
+
+The dataset is validated using `validate_careflow_v3.py`.
+
+Validation checks include:
+
+* Missing values
+* Empty strings
+* Duplicate records
+* Chronological ordering of patient activities
+* Minimum of 15 unique patient pathways
+* Presence of loop-backs
+* Presence of long intervals
+* Required dataset columns
+* Patient ID formatting
+* Date consistency within patient journeys
+
+The dataset passed the Week 3 validation and structure consistency checks.
+
+### Running the Project
+
+Generate the dataset:
+
+`python careflow_dataset_v3.py`
+
+Validate the dataset:
+
+`python validate_careflow_v3.py`
+
+Run the process analysis:
+
+`python careflow_summary.py`
+
+### Week 3 Outcome
+
+The final dataset meets the Week 3 requirements for pathway diversity, loop-backs, extended activity intervals, and data quality.
+
+Additional analysis helps identify potential delays and bottlenecks in simulated hospital workflows.
