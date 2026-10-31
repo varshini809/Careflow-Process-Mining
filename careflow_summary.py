@@ -146,6 +146,48 @@ loopback_counts = (
 print("\nLoop-backs by activity:")
 print(loopback_counts.to_string())
 
+# 10. Hospital Bottleneck Analysis
+print("\n9. HOSPITAL BOTTLENECK ANALYSIS")
+
+# Identify the previous activity for each patient
+df["Previous_Activity"] = (
+    df.groupby("Case_ID")["Activity_Name"].shift(1)
+)
+
+# Calculate elapsed time between consecutive activities
+df["Transition_Minutes"] = (
+    df.groupby("Case_ID")["Timestamp"]
+    .diff()
+    .dt.total_seconds() / 60
+)
+
+# Exclude the first event of each patient
+transitions = df.dropna(
+    subset=["Previous_Activity", "Transition_Minutes"]
+).copy()
+
+# Calculate average time for each activity transition
+bottlenecks = (
+    transitions.groupby(["Previous_Activity", "Activity_Name"])
+    ["Transition_Minutes"]
+    .agg(["mean", "count"])
+    .reset_index()
+)
+
+# Sort by longest average transition time
+bottlenecks = bottlenecks.sort_values(
+    "mean", ascending=False
+)
+
+print("\nTop 5 longest average activity transitions:")
+
+print(
+    bottlenecks.head(5).to_string(
+        index=False,
+        formatters={"mean": "{:.2f}".format}
+    )
+)
+
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
