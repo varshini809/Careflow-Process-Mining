@@ -188,6 +188,39 @@ print(
     )
 )
 
+
+# 11. Department-Level Delay Analysis
+print("\n10. DEPARTMENT-LEVEL DELAY ANALYSIS")
+
+# Calculate elapsed time before entering each department
+df["Department_Interval_Minutes"] = (
+    df.groupby("Case_ID")["Timestamp"]
+    .diff()
+    .dt.total_seconds() / 60
+)
+
+# Group intervals by destination department
+department_delays = (
+    df.groupby("Department")["Department_Interval_Minutes"]
+    .agg(["mean", "max", "count"])
+    .sort_values("mean", ascending=False)
+)
+
+print("\nAverage interval before each department:")
+print(department_delays.round(2).to_string())
+
+# Count long intervals by destination department
+long_department_delays = df[
+    df["Department_Interval_Minutes"] >= 60
+]
+
+long_delay_counts = (
+    long_department_delays["Department"]
+    .value_counts()
+)
+
+print("\nLong intervals (60+ minutes) by department:")
+print(long_delay_counts.to_string())
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
