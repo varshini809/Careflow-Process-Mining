@@ -120,3 +120,55 @@ if all_checks_passed:
     print("\nSUCCESS: All Week 3 validation checks passed!")
 else:
     print("\nWARNING: Some Week 3 validation checks failed!")
+
+    # 9. Dataset Structure and Consistency Validation
+print("\n9. DATASET STRUCTURE AND CONSISTENCY")
+
+required_columns = [
+    "Case_ID",
+    "Activity_Name",
+    "Date",
+    "Time",
+    "Department"
+]
+
+# Verify required columns
+missing_columns = [
+    col for col in required_columns
+    if col not in df.columns
+]
+
+print("Missing required columns:", missing_columns)
+
+# Verify patient ID format
+invalid_patient_ids = df[
+    ~df["Case_ID"].astype(str).str.fullmatch(r"P\d{3}")
+]
+
+print("Invalid patient ID records:", len(invalid_patient_ids))
+
+# Verify that every patient has a pathway
+patient_event_counts = df.groupby("Case_ID").size()
+
+print("Patients with no events:", (patient_event_counts == 0).sum())
+
+# Check date consistency within each patient journey
+patient_date_counts = df.groupby("Case_ID")["Date"].nunique()
+
+inconsistent_dates = patient_date_counts[
+    patient_date_counts > 1
+]
+
+print("Patients with multiple dates:", len(inconsistent_dates))
+
+# Final structure validation
+structure_valid = (
+    len(missing_columns) == 0
+    and len(invalid_patient_ids) == 0
+    and len(inconsistent_dates) == 0
+)
+
+if structure_valid:
+    print("\nPASS: Dataset structure and consistency verified!")
+else:
+    print("\nFAIL: Dataset structure or consistency issues detected!")
