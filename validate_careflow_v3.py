@@ -172,3 +172,61 @@ if structure_valid:
     print("\nPASS: Dataset structure and consistency verified!")
 else:
     print("\nFAIL: Dataset structure or consistency issues detected!")
+
+    # 10. Detailed Data Quality Error Report
+print("\n10. DETAILED DATA QUALITY ERROR REPORT")
+
+original_columns = [
+    "Case_ID", "Activity_Name", "Date", "Time", "Department"
+]
+
+# Identify records containing missing or empty values
+missing_mask = df[original_columns].isna().any(axis=1)
+
+empty_mask = (
+    df[original_columns]
+    .astype("string")
+    .apply(lambda col: col.str.strip().eq("").fillna(False))
+    .any(axis=1)
+)
+
+problem_records = df[missing_mask | empty_mask]
+
+print("\nRecords with missing or empty values:")
+if problem_records.empty:
+    print("PASS: No missing or empty values found.")
+else:
+    print(problem_records[original_columns].to_string(index=False))
+
+# Identify duplicate records
+duplicate_records_detail = df[
+    df.duplicated(subset=original_columns, keep=False)
+]
+
+print("\nDuplicate records:")
+if duplicate_records_detail.empty:
+    print("PASS: No duplicate records found.")
+else:
+    print(
+        duplicate_records_detail[original_columns]
+        .to_string(index=False)
+    )
+
+# Display patients with incorrect chronological ordering
+print("\nPatients with chronological errors:")
+if len(invalid_cases) == 0:
+    print("PASS: All patient events are chronologically ordered.")
+else:
+    print("Affected patient IDs:", invalid_cases)
+
+# Overall validation result
+detailed_validation_passed = (
+    problem_records.empty
+    and duplicate_records_detail.empty
+    and len(invalid_cases) == 0
+)
+
+if detailed_validation_passed:
+    print("\nSUCCESS: Detailed data quality validation passed!")
+else:
+    print("\nWARNING: Data quality issues detected!")
