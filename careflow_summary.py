@@ -221,6 +221,34 @@ long_delay_counts = (
 
 print("\nLong intervals (60+ minutes) by department:")
 print(long_delay_counts.to_string())
+
+# 12. Patient Pathway Frequency Analysis
+print("\n11. PATIENT PATHWAY FREQUENCY ANALYSIS")
+
+# Create a pathway for each patient
+patient_pathways = (
+    df.groupby("Case_ID", sort=False)["Activity_Name"]
+    .apply(tuple)
+)
+
+# Count patients following each pathway
+pathway_frequency = patient_pathways.value_counts()
+
+total_patients = len(patient_pathways)
+
+print("\nTotal unique pathways:", len(pathway_frequency))
+
+print("\nTop 5 most common patient pathways:")
+
+for rank, (pathway, count) in enumerate(
+    pathway_frequency.head(5).items(), start=1
+):
+    percentage = (count / total_patients) * 100
+
+    print(f"\nPathway {rank}:")
+    print("Journey:", " -> ".join(pathway))
+    print("Patients:", count)
+    print(f"Percentage: {percentage:.2f}%")
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
