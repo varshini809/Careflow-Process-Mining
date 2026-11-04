@@ -770,3 +770,85 @@ Run the process analysis:
 The final dataset meets the Week 3 requirements for pathway diversity, loop-backs, extended activity intervals, and data quality.
 
 Additional analysis helps identify potential delays and bottlenecks in simulated hospital workflows.
+
+## Final Dataset: Generation, Structure, and Quality Checks
+
+### Final Dataset File
+
+The recommended dataset for CareFlow process mining is `careflow_100_patients_v3.csv`.
+
+It contains 979 event records representing 100 synthetic patient journeys across 30 days, with 18 distinct patient pathways.
+
+### Dataset Columns
+
+| Column        | Description                                      |
+| ------------- | ------------------------------------------------ |
+| Case_ID       | Unique identifier for each patient journey       |
+| Activity_Name | Hospital activity performed by the patient       |
+| Date          | Date on which the activity occurred (YYYY-MM-DD) |
+| Time          | Time at which the activity occurred (HH:MM)      |
+| Department    | Hospital department associated with the activity |
+
+Each row represents one hospital activity within a patient's journey.
+
+### How the Dataset Was Generated
+
+The dataset was generated using Python through `careflow_dataset_v3.py`.
+
+The generation process involved:
+
+1. Creating 100 synthetic patient identifiers.
+2. Assigning different hospital pathways to patients.
+3. Simulating routine consultations, diagnostic procedures, emergency cases, and early departures.
+4. Introducing repeated activities and department revisits (loop-backs).
+5. Generating activity timestamps with variable intervals, including extended delays.
+6. Distributing patient journeys across 30 days.
+7. Assigning departments to hospital activities.
+8. Exporting the generated event records into CSV format.
+
+The dataset contains synthetic information only and does not include real patient records.
+
+### Data Quality Checks
+
+The dataset was validated using `validate_careflow_v3.py`.
+
+The validation process checks:
+
+* Missing values and empty strings.
+* Duplicate event records.
+* Chronological ordering of patient activities.
+* Required dataset columns.
+* Patient identifier formatting.
+* Date consistency within each patient journey.
+* Presence of at least 15 unique patient pathways.
+* Presence of loop-backs and extended activity intervals.
+
+### Final Validation Results
+
+| Check                   | Result |
+| ----------------------- | ------ |
+| Total patients          | 100    |
+| Total event records     | 979    |
+| Unique patient pathways | 18     |
+| Days covered            | 30     |
+| Missing values          | 0      |
+| Empty strings           | 0      |
+| Duplicate records       | 0      |
+| Chronological errors    | 0      |
+| Dataset structure       | PASS   |
+
+### Running the Final Dataset
+
+Generate the dataset:
+
+`python careflow_dataset_v3.py`
+
+Validate the dataset:
+
+`python validate_careflow_v3.py`
+
+Analyze the dataset:
+
+`python careflow_summary.py`
+
+The validated V3 dataset is ready for process discovery, patient journey analysis, and hospital bottleneck analysis.
