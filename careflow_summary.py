@@ -249,6 +249,53 @@ for rank, (pathway, count) in enumerate(
     print("Journey:", " -> ".join(pathway))
     print("Patients:", count)
     print(f"Percentage: {percentage:.2f}%")
+
+    # 13. Emergency vs Routine Patient Journey Analysis
+print("\n12. EMERGENCY VS ROUTINE PATIENT ANALYSIS")
+
+# Ensure events are ordered chronologically
+journey_df = df.sort_values(["Case_ID", "Timestamp"]).copy()
+
+# Calculate patient-level journey statistics
+patient_stats = (
+    journey_df.groupby("Case_ID")
+    .agg(
+        Total_Activities=("Activity_Name", "count"),
+        Start_Time=("Timestamp", "min"),
+        End_Time=("Timestamp", "max")
+    )
+)
+
+# Calculate journey duration in minutes
+patient_stats["Duration_Minutes"] = (
+    patient_stats["End_Time"] - patient_stats["Start_Time"]
+).dt.total_seconds() / 60
+
+# Identify emergency patients based on their pathway
+# Emergency patients go directly to Doctor as their first activity
+first_activities = (
+    journey_df.groupby("Case_ID")["Activity_Name"].first()
+)
+
+patient_stats["Patient_Type"] = first_activities.apply(
+    lambda activity: "Emergency"
+    if activity == "Doctor"
+    else "Routine"
+)
+
+# Compare patient groups
+comparison = (
+    patient_stats.groupby("Patient_Type")
+    .agg(
+        Patients=("Total_Activities", "count"),
+        Avg_Activities=("Total_Activities", "mean"),
+        Avg_Duration_Minutes=("Duration_Minutes", "mean"),
+        Max_Duration_Minutes=("Duration_Minutes", "max")
+    )
+)
+
+print("\nEmergency vs Routine Comparison:")
+print(comparison.round(2).to_string())
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
