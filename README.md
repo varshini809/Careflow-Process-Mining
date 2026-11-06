@@ -61,3 +61,13 @@ The charts are saved in `docs/charts/`:
 3. **Doctor** is the most frequently recorded activity, with **191 events**.
 4. **Pathology report** has the longest average preceding wait at **59.7 minutes**, followed by **X-Ray report** at **56.5 minutes**.
 5. There are **111 loop-back events** across **78 patients**; **Doctor** accounts for **93** of them.
+
+## week 3:
+
+## Objective
+Visualize patient journey patterns, waiting times, and repeated activities in the CareFlow dataset.
+Work Completed
+- Created a bar chart of the five most common patient activity paths.
+- Created a chart comparing average wait times between consecutive activities.
+- Created a histogram of loop-backs per patient.
+- Reviewed the charts and summarized the main findings below.
