@@ -296,6 +296,85 @@ comparison = (
 
 print("\nEmergency vs Routine Comparison:")
 print(comparison.round(2).to_string())
+
+# 14. Patient Journey Duration Distribution Analysis
+
+print("\n13. PATIENT JOURNEY DURATION DISTRIBUTION")
+
+# Combine Date and Time columns into a datetime
+duration_df = df.copy()
+
+duration_df["Journey_Timestamp"] = pd.to_datetime(
+    duration_df["Date"].astype(str) + " " +
+    duration_df["Time"].astype(str)
+)
+
+# Calculate the start and end time for each patient
+patient_durations = (
+    duration_df.groupby("Case_ID")["Journey_Timestamp"]
+    .agg(["min", "max"])
+)
+
+# Calculate total journey duration in minutes
+patient_durations["Duration_Minutes"] = (
+    patient_durations["max"] - patient_durations["min"]
+).dt.total_seconds() / 60
+
+# Display overall journey duration statistics
+print("\nPatient Journey Duration Statistics:")
+
+print(
+    f"Shortest Journey: "
+    f"{patient_durations['Duration_Minutes'].min():.2f} minutes"
+)
+
+print(
+    f"Longest Journey: "
+    f"{patient_durations['Duration_Minutes'].max():.2f} minutes"
+)
+
+print(
+    f"Average Journey: "
+    f"{patient_durations['Duration_Minutes'].mean():.2f} minutes"
+)
+
+print(
+    f"Median Journey: "
+    f"{patient_durations['Duration_Minutes'].median():.2f} minutes"
+)
+
+# Group patients into journey duration categories
+duration_bins = [0, 60, 120, 180, 240, float("inf")]
+
+duration_labels = [
+    "0-60 minutes",
+    "61-120 minutes",
+    "121-180 minutes",
+    "181-240 minutes",
+    "More than 240 minutes"
+]
+
+patient_durations["Duration_Category"] = pd.cut(
+    patient_durations["Duration_Minutes"],
+    bins=duration_bins,
+    labels=duration_labels,
+    include_lowest=True
+)
+
+# Count patients in each category
+duration_distribution = (
+    patient_durations["Duration_Category"]
+    .value_counts()
+    .sort_index()
+)
+
+print("\nPatient Journey Duration Distribution:")
+print(duration_distribution.to_string())
+
+print(
+    f"\nTotal Patients Analyzed: "
+    f"{len(patient_durations)}"
+)
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
