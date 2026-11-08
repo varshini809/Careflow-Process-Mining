@@ -375,6 +375,77 @@ print(
     f"\nTotal Patients Analyzed: "
     f"{len(patient_durations)}"
 )
+
+# 15. Department Transition Frequency Analysis
+
+print("\n14. DEPARTMENT TRANSITION FREQUENCY ANALYSIS")
+
+# Create a copy of the dataset
+transition_df = df.copy()
+
+# Combine Date and Time for chronological ordering
+transition_df["Transition_Timestamp"] = pd.to_datetime(
+    transition_df["Date"].astype(str) + " " +
+    transition_df["Time"].astype(str)
+)
+
+# Sort activities by patient and timestamp
+transition_df = transition_df.sort_values(
+    ["Case_ID", "Transition_Timestamp"]
+)
+
+# Identify the next department visited by each patient
+transition_df["Next_Department"] = (
+    transition_df.groupby("Case_ID")["Department"].shift(-1)
+)
+
+# Exclude the final activity of each patient
+transitions = transition_df.dropna(
+    subset=["Next_Department"]
+).copy()
+
+# Count total and unique transitions
+transition_counts = (
+    transitions.groupby(["Department", "Next_Department"])
+    .agg(
+        Frequency=("Case_ID", "count"),
+        Unique_Patients=("Case_ID", "nunique")
+    )
+    .sort_values("Frequency", ascending=False)
+)
+
+print(f"\nTotal Department Transitions: {len(transitions)}")
+
+print(
+    f"Unique Department Transitions: "
+    f"{len(transition_counts)}"
+)
+
+print("\nTop 10 Most Frequent Department Transitions:")
+print(transition_counts.head(10).to_string())
+
+# Identify consecutive visits to the same department
+same_department = transitions[
+    transitions["Department"] == transitions["Next_Department"]
+]
+
+print(
+    f"\nConsecutive Same-Department Transitions: "
+    f"{len(same_department)}"
+)
+
+# Identify patients who revisit a department later in their journey
+department_revisits = (
+    transition_df.groupby("Case_ID")["Department"]
+    .apply(lambda departments: departments.duplicated().any())
+)
+
+print(
+    f"Patients Revisiting a Department: "
+    f"{department_revisits.sum()}"
+)
+
+print("\nDepartment Transition Analysis Completed.")
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
