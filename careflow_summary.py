@@ -446,6 +446,77 @@ print(
 )
 
 print("\nDepartment Transition Analysis Completed.")
+
+# 16. Most Common Patient Journey Patterns Analysis
+
+print("\n15. MOST COMMON PATIENT JOURNEY PATTERNS")
+
+# Create a copy of the dataset
+pattern_df = df.copy()
+
+# Combine Date and Time for chronological ordering
+pattern_df["Pattern_Timestamp"] = pd.to_datetime(
+    pattern_df["Date"].astype(str) + " " +
+    pattern_df["Time"].astype(str)
+)
+
+# Sort patient activities chronologically
+pattern_df = pattern_df.sort_values(
+    ["Case_ID", "Pattern_Timestamp"],
+    kind="stable"
+)
+
+# Create the complete activity sequence for each patient
+patient_paths = (
+    pattern_df.groupby("Case_ID")["Activity_Name"]
+    .apply(tuple)
+)
+
+# Count how many patients follow each pathway
+path_frequencies = patient_paths.value_counts()
+
+total_patients = len(patient_paths)
+
+print(f"\nTotal Patients: {total_patients}")
+print(f"Unique Patient Pathways: {len(path_frequencies)}")
+
+# Display the five most common pathways
+print("\nTop 5 Most Common Patient Pathways:")
+
+for rank, (path, count) in enumerate(
+    path_frequencies.head(5).items(),
+    start=1
+):
+    percentage = (count / total_patients) * 100
+
+    print(f"\nRank {rank}")
+    print(f"Patients: {count}")
+    print(f"Percentage: {percentage:.2f}%")
+    print("Pathway:", " -> ".join(path))
+
+# Calculate the most common pathway percentage
+most_common_count = path_frequencies.iloc[0]
+
+most_common_percentage = (
+    most_common_count / total_patients
+) * 100
+
+print("\nMost Common Pathway Summary:")
+print(f"Patients: {most_common_count}")
+print(f"Percentage: {most_common_percentage:.2f}%")
+
+# Calculate the combined percentage of the top 3 pathways
+top_three_patients = path_frequencies.head(3).sum()
+
+top_three_percentage = (
+    top_three_patients / total_patients
+) * 100
+
+print("\nTop 3 Pathways Combined:")
+print(f"Patients: {top_three_patients}")
+print(f"Percentage: {top_three_percentage:.2f}%")
+
+print("\nPatient Journey Pattern Analysis Completed.")
 print("\n" + "=" * 50)
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
