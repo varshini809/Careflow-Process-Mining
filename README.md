@@ -1,16 +1,19 @@
-# CareFlow Project Progress
+# CareFlow – Clinical Pathway Process Mining
 
-This README summarizes the work completed so far in the CareFlow process-mining project.
+Infotact Solutions internship project | Domain: Data Analytics
+Team Lead: Varshini | Team: Mosharib, Chandana, Shubhangi
 
-## Week 1: Load and explore the patient activity CSV
+## About the project
+CareFlow studies hospital patient journeys using event data. Each patient moves through steps like Registration, Triage, Doctor, Pathology, X-Ray, Pharmacy, Billing and Discharge. We find the common paths, repeated steps (loop-backs) and long waiting times, and show them in a Power BI dashboard.
 
-- Loaded the CareFlow patient activity CSV into Python with pandas.
-- Checked the data by displaying rows and column names.
-- Worked on building each patient’s activity path in timestamp order.
-- Added logic to count patients following each distinct full activity path.
-- Added logic to count loop-backs, defined as an activity repeated later in the same patient’s path.
+## Dataset
+- File: careflow_100_patients_v3.csv (synthetic data, no real patient information)
+- Columns: Case_ID, Activity_Name, Date, Time, Department
+- Size: 100 patients, 979 events, 30 days
+- Checks: no empty values, no duplicate rows, time in order for each patient
 
-The Week 1 CSV used these fields: `Case ID`, `Activity Name`, and `Timestamp`.
+## Tools
+Python (pandas), SQL, Power BI, Excel, GitHub
 
 # CareFlow — Week 2 Analysis
 

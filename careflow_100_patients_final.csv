@@ -1,0 +1,1163 @@
+Case_ID,Activity_Name,Date,Time,Department
+P001,Registration,2026-10-01,08:20,Reception
+P001,Vitals,2026-10-01,08:53,Nursing
+P001,Triage,2026-10-01,09:25,Emergency
+P001,Doctor,2026-10-01,09:49,Consultation
+P001,Billing Counter,2026-10-01,10:06,Billing
+P001,Pathology,2026-10-01,10:28,Laboratory
+P001,Pathology report,2026-10-01,11:59,Laboratory
+P001,Triage,2026-10-01,12:14,Emergency
+P001,Doctor,2026-10-01,13:17,Consultation
+P001,Pharmacy,2026-10-01,13:49,Pharmacy
+P001,Discharge,2026-10-01,13:55,Discharge
+P002,Registration,2026-10-02,09:10,Reception
+P002,Vitals,2026-10-02,09:15,Nursing
+P002,Triage,2026-10-02,09:48,Emergency
+P002,Doctor,2026-10-02,12:20,Consultation
+P002,Billing Counter,2026-10-02,12:49,Billing
+P002,Pathology,2026-10-02,12:56,Laboratory
+P002,X-Ray,2026-10-02,13:29,Radiology
+P002,X-Ray report,2026-10-02,16:05,Radiology
+P002,Pathology report,2026-10-02,17:13,Laboratory
+P002,Doctor,2026-10-02,17:41,Consultation
+P002,Triage,2026-10-02,18:11,Emergency
+P002,Doctor,2026-10-02,19:55,Consultation
+P002,Pharmacy,2026-10-02,20:30,Pharmacy
+P002,Discharge,2026-10-02,20:45,Discharge
+P003,Registration,2026-10-03,11:05,Reception
+P003,Vitals,2026-10-03,11:35,Nursing
+P003,Triage,2026-10-03,12:09,Emergency
+P003,Doctor,2026-10-03,13:37,Consultation
+P003,Billing Counter,2026-10-03,13:51,Billing
+P003,X-Ray,2026-10-03,14:25,Radiology
+P003,X-Ray report,2026-10-03,17:08,Radiology
+P003,Doctor,2026-10-03,18:41,Consultation
+P003,Triage,2026-10-03,19:11,Emergency
+P003,Doctor,2026-10-03,21:28,Consultation
+P003,Pharmacy,2026-10-03,22:18,Pharmacy
+P003,Discharge,2026-10-03,22:31,Discharge
+P004,Registration,2026-10-04,11:00,Reception
+P004,Vitals,2026-10-04,11:11,Nursing
+P004,Triage,2026-10-04,11:42,Emergency
+P004,Doctor,2026-10-04,13:19,Consultation
+P004,Billing Counter,2026-10-04,13:44,Billing
+P004,Pathology,2026-10-04,14:05,Laboratory
+P004,X-Ray,2026-10-04,14:28,Radiology
+P004,X-Ray report,2026-10-04,15:28,Radiology
+P004,Pathology report,2026-10-04,15:49,Laboratory
+P004,Doctor,2026-10-04,16:59,Consultation
+P004,Triage,2026-10-04,17:29,Emergency
+P004,Doctor,2026-10-04,17:59,Consultation
+P004,Pharmacy,2026-10-04,19:02,Pharmacy
+P004,Discharge,2026-10-04,19:27,Discharge
+P005,Registration,2026-10-05,11:50,Reception
+P005,Vitals,2026-10-05,12:10,Nursing
+P005,Triage,2026-10-05,12:31,Emergency
+P005,Doctor,2026-10-05,15:11,Consultation
+P005,Billing Counter,2026-10-05,15:27,Billing
+P005,Pathology,2026-10-05,15:48,Laboratory
+P005,X-Ray,2026-10-05,15:54,Radiology
+P005,X-Ray report,2026-10-05,17:24,Radiology
+P005,Pathology report,2026-10-05,17:54,Laboratory
+P005,Doctor,2026-10-05,19:16,Consultation
+P005,Triage,2026-10-05,19:46,Emergency
+P005,Doctor,2026-10-05,21:17,Consultation
+P005,Pharmacy,2026-10-05,22:13,Pharmacy
+P005,Discharge,2026-10-05,22:26,Discharge
+P006,Registration,2026-10-06,09:30,Reception
+P006,Vitals,2026-10-06,09:49,Nursing
+P006,Triage,2026-10-06,10:06,Emergency
+P006,Doctor,2026-10-06,12:53,Consultation
+P006,Billing Counter,2026-10-06,13:22,Billing
+P006,Pathology,2026-10-06,13:37,Laboratory
+P006,X-Ray,2026-10-06,13:42,Radiology
+P006,X-Ray report,2026-10-06,15:43,Radiology
+P006,Pathology report,2026-10-06,17:18,Laboratory
+P006,Triage,2026-10-06,17:25,Emergency
+P006,Doctor,2026-10-06,20:43,Consultation
+P006,Pharmacy,2026-10-06,20:59,Pharmacy
+P006,Discharge,2026-10-06,21:04,Discharge
+P007,Registration,2026-10-07,10:15,Reception
+P007,Vitals,2026-10-07,10:21,Nursing
+P007,Triage,2026-10-07,10:46,Emergency
+P007,Doctor,2026-10-07,12:54,Consultation
+P007,Billing Counter,2026-10-07,13:14,Billing
+P007,Pathology,2026-10-07,13:49,Laboratory
+P007,X-Ray,2026-10-07,14:18,Radiology
+P007,X-Ray report,2026-10-07,17:28,Radiology
+P007,Pathology report,2026-10-07,18:17,Laboratory
+P007,Doctor,2026-10-07,19:46,Consultation
+P007,Triage,2026-10-07,20:16,Emergency
+P007,Doctor,2026-10-07,22:27,Consultation
+P007,Pharmacy,2026-10-07,23:17,Pharmacy
+P007,Discharge,2026-10-07,23:27,Discharge
+P008,Registration,2026-10-08,09:50,Reception
+P008,Vitals,2026-10-08,09:59,Nursing
+P008,Triage,2026-10-08,10:18,Emergency
+P008,Doctor,2026-10-08,11:02,Consultation
+P008,Billing Counter,2026-10-08,11:07,Billing
+P008,Pathology,2026-10-08,11:20,Laboratory
+P008,X-Ray,2026-10-08,11:50,Radiology
+P008,X-Ray report,2026-10-08,12:55,Radiology
+P008,Pathology report,2026-10-08,13:49,Laboratory
+P008,Triage,2026-10-08,14:07,Emergency
+P008,Doctor,2026-10-08,15:20,Consultation
+P008,Pharmacy,2026-10-08,15:25,Pharmacy
+P008,Discharge,2026-10-08,15:33,Discharge
+P009,Registration,2026-10-09,08:50,Reception
+P009,Vitals,2026-10-09,08:55,Nursing
+P009,Triage,2026-10-09,09:25,Emergency
+P009,Doctor,2026-10-09,10:53,Consultation
+P009,Billing Counter,2026-10-09,11:10,Billing
+P009,X-Ray,2026-10-09,11:17,Radiology
+P009,X-Ray report,2026-10-09,12:46,Radiology
+P009,Doctor,2026-10-09,13:57,Consultation
+P009,Triage,2026-10-09,14:27,Emergency
+P009,Doctor,2026-10-09,14:57,Consultation
+P009,Pharmacy,2026-10-09,15:32,Pharmacy
+P009,Discharge,2026-10-09,15:47,Discharge
+P010,Registration,2026-10-10,10:45,Reception
+P010,Vitals,2026-10-10,10:50,Nursing
+P010,Triage,2026-10-10,11:15,Emergency
+P010,Doctor,2026-10-10,11:55,Consultation
+P010,Billing Counter,2026-10-10,12:28,Billing
+P010,Pathology,2026-10-10,13:03,Laboratory
+P010,Pathology report,2026-10-10,14:16,Laboratory
+P010,Doctor,2026-10-10,14:44,Consultation
+P010,Triage,2026-10-10,15:14,Emergency
+P010,Doctor,2026-10-10,15:44,Consultation
+P010,Pharmacy,2026-10-10,16:41,Pharmacy
+P010,Discharge,2026-10-10,16:50,Discharge
+P011,Registration,2026-10-11,10:15,Reception
+P011,Vitals,2026-10-11,10:44,Nursing
+P011,Triage,2026-10-11,11:05,Emergency
+P011,Doctor,2026-10-11,14:09,Consultation
+P011,Billing Counter,2026-10-11,14:31,Billing
+P011,Pathology,2026-10-11,14:45,Laboratory
+P011,X-Ray,2026-10-11,14:54,Radiology
+P011,X-Ray report,2026-10-11,16:36,Radiology
+P011,Pathology report,2026-10-11,17:45,Laboratory
+P011,Doctor,2026-10-11,18:52,Consultation
+P011,Triage,2026-10-11,19:22,Emergency
+P011,Doctor,2026-10-11,21:40,Consultation
+P011,Pharmacy,2026-10-11,22:19,Pharmacy
+P011,Discharge,2026-10-11,22:41,Discharge
+P012,Registration,2026-10-12,10:50,Reception
+P012,Vitals,2026-10-12,11:08,Nursing
+P012,Triage,2026-10-12,11:14,Emergency
+P012,Doctor,2026-10-12,11:51,Consultation
+P012,Billing Counter,2026-10-12,12:10,Billing
+P012,Pathology,2026-10-12,12:36,Laboratory
+P012,Pathology report,2026-10-12,12:58,Laboratory
+P012,Doctor,2026-10-12,14:02,Consultation
+P012,Triage,2026-10-12,14:32,Emergency
+P012,Doctor,2026-10-12,15:02,Consultation
+P012,Pharmacy,2026-10-12,15:51,Pharmacy
+P012,Discharge,2026-10-12,16:10,Discharge
+P013,Registration,2026-10-13,10:40,Reception
+P013,Vitals,2026-10-13,11:12,Nursing
+P013,Triage,2026-10-13,11:33,Emergency
+P013,Doctor,2026-10-13,12:58,Consultation
+P013,Billing Counter,2026-10-13,13:20,Billing
+P013,X-Ray,2026-10-13,13:29,Radiology
+P013,X-Ray report,2026-10-13,14:32,Radiology
+P013,Doctor,2026-10-13,15:56,Consultation
+P013,Triage,2026-10-13,16:26,Emergency
+P013,Doctor,2026-10-13,16:56,Consultation
+P013,Pharmacy,2026-10-13,17:34,Pharmacy
+P013,Discharge,2026-10-13,17:56,Discharge
+P014,Registration,2026-10-14,10:15,Reception
+P014,Vitals,2026-10-14,10:36,Nursing
+P014,Triage,2026-10-14,10:48,Emergency
+P014,Doctor,2026-10-14,12:43,Consultation
+P014,Billing Counter,2026-10-14,13:16,Billing
+P014,Pathology,2026-10-14,13:31,Laboratory
+P014,X-Ray,2026-10-14,13:44,Radiology
+P014,X-Ray report,2026-10-14,15:52,Radiology
+P014,Pathology report,2026-10-14,16:17,Laboratory
+P014,Doctor,2026-10-14,17:41,Consultation
+P014,Triage,2026-10-14,18:11,Emergency
+P014,Doctor,2026-10-14,20:29,Consultation
+P014,Pharmacy,2026-10-14,21:06,Pharmacy
+P014,Discharge,2026-10-14,21:17,Discharge
+P015,Registration,2026-10-15,09:00,Reception
+P015,Vitals,2026-10-15,09:15,Nursing
+P015,Triage,2026-10-15,09:22,Emergency
+P015,Doctor,2026-10-15,11:30,Consultation
+P015,Billing Counter,2026-10-15,11:52,Billing
+P015,Pathology,2026-10-15,12:14,Laboratory
+P015,Pathology report,2026-10-15,14:45,Laboratory
+P015,Triage,2026-10-15,14:54,Emergency
+P015,Doctor,2026-10-15,17:21,Consultation
+P015,Pharmacy,2026-10-15,17:41,Pharmacy
+P015,Discharge,2026-10-15,17:58,Discharge
+P016,Registration,2026-10-16,08:20,Reception
+P016,Vitals,2026-10-16,08:35,Nursing
+P016,Triage,2026-10-16,08:52,Emergency
+P016,Doctor,2026-10-16,11:02,Consultation
+P016,Billing Counter,2026-10-16,11:33,Billing
+P016,Pathology,2026-10-16,11:54,Laboratory
+P016,X-Ray,2026-10-16,12:28,Radiology
+P016,X-Ray report,2026-10-16,14:27,Radiology
+P016,Pathology report,2026-10-16,16:05,Laboratory
+P016,Doctor,2026-10-16,16:25,Consultation
+P016,Triage,2026-10-16,16:55,Emergency
+P016,Doctor,2026-10-16,18:41,Consultation
+P016,Pharmacy,2026-10-16,19:44,Pharmacy
+P016,Discharge,2026-10-16,20:08,Discharge
+P017,Registration,2026-10-17,11:30,Reception
+P017,Vitals,2026-10-17,12:02,Nursing
+P017,Triage,2026-10-17,12:21,Emergency
+P017,Doctor,2026-10-17,13:27,Consultation
+P017,Billing Counter,2026-10-17,14:02,Billing
+P017,X-Ray,2026-10-17,14:28,Radiology
+P017,X-Ray report,2026-10-17,15:41,Radiology
+P017,Doctor,2026-10-17,16:41,Consultation
+P017,Triage,2026-10-17,17:11,Emergency
+P017,Doctor,2026-10-17,17:41,Consultation
+P017,Pharmacy,2026-10-17,18:27,Pharmacy
+P017,Discharge,2026-10-17,18:38,Discharge
+P018,Registration,2026-10-18,11:30,Reception
+P018,Vitals,2026-10-18,11:47,Nursing
+P018,Triage,2026-10-18,12:17,Emergency
+P018,Doctor,2026-10-18,12:44,Consultation
+P018,Billing Counter,2026-10-18,13:15,Billing
+P018,Pathology,2026-10-18,13:33,Laboratory
+P018,X-Ray,2026-10-18,13:50,Radiology
+P018,X-Ray report,2026-10-18,15:14,Radiology
+P018,Pathology report,2026-10-18,16:07,Laboratory
+P018,Doctor,2026-10-18,16:49,Consultation
+P018,Triage,2026-10-18,17:19,Emergency
+P018,Doctor,2026-10-18,17:49,Consultation
+P018,Pharmacy,2026-10-18,18:51,Pharmacy
+P018,Discharge,2026-10-18,19:13,Discharge
+P019,Registration,2026-10-19,11:30,Reception
+P019,Vitals,2026-10-19,11:51,Nursing
+P019,Triage,2026-10-19,12:22,Emergency
+P019,Doctor,2026-10-19,13:59,Consultation
+P019,Billing Counter,2026-10-19,14:14,Billing
+P019,Pathology,2026-10-19,14:20,Laboratory
+P019,Pathology report,2026-10-19,15:28,Laboratory
+P019,Doctor,2026-10-19,15:54,Consultation
+P019,Pharmacy,2026-10-19,16:17,Pharmacy
+P019,Discharge,2026-10-19,16:34,Discharge
+P020,Registration,2026-10-20,10:05,Reception
+P020,Vitals,2026-10-20,10:17,Nursing
+P020,Triage,2026-10-20,10:42,Emergency
+P020,Doctor,2026-10-20,11:59,Consultation
+P020,Billing Counter,2026-10-20,12:12,Billing
+P020,Pathology,2026-10-20,12:43,Laboratory
+P020,X-Ray,2026-10-20,13:02,Radiology
+P020,X-Ray report,2026-10-20,14:34,Radiology
+P020,Pathology report,2026-10-20,16:07,Laboratory
+P020,Doctor,2026-10-20,17:11,Consultation
+P020,Pharmacy,2026-10-20,17:23,Pharmacy
+P020,Discharge,2026-10-20,17:42,Discharge
+P021,Registration,2026-10-21,10:30,Reception
+P021,Vitals,2026-10-21,10:56,Nursing
+P021,Triage,2026-10-21,11:16,Emergency
+P021,Doctor,2026-10-21,13:27,Consultation
+P021,Billing Counter,2026-10-21,13:47,Billing
+P021,Pathology,2026-10-21,14:09,Laboratory
+P021,X-Ray,2026-10-21,14:15,Radiology
+P021,X-Ray report,2026-10-21,16:38,Radiology
+P021,Pathology report,2026-10-21,18:07,Laboratory
+P021,Triage,2026-10-21,18:16,Emergency
+P021,Doctor,2026-10-21,21:10,Consultation
+P021,Pharmacy,2026-10-21,21:42,Pharmacy
+P021,Discharge,2026-10-21,21:58,Discharge
+P022,Registration,2026-10-22,09:00,Reception
+P022,Vitals,2026-10-22,09:29,Nursing
+P022,Triage,2026-10-22,10:04,Emergency
+P022,Doctor,2026-10-22,11:00,Consultation
+P022,Billing Counter,2026-10-22,11:27,Billing
+P022,Pathology,2026-10-22,11:50,Laboratory
+P022,X-Ray,2026-10-22,12:23,Radiology
+P022,X-Ray report,2026-10-22,12:44,Radiology
+P022,Pathology report,2026-10-22,13:45,Laboratory
+P022,Doctor,2026-10-22,14:54,Consultation
+P022,Pharmacy,2026-10-22,15:06,Pharmacy
+P022,Discharge,2026-10-22,15:13,Discharge
+P023,Registration,2026-10-23,10:20,Reception
+P023,Vitals,2026-10-23,10:44,Nursing
+P023,Triage,2026-10-23,10:49,Emergency
+P023,Doctor,2026-10-23,12:12,Consultation
+P023,Billing Counter,2026-10-23,12:38,Billing
+P023,Pathology,2026-10-23,12:48,Laboratory
+P023,Pathology report,2026-10-23,13:33,Laboratory
+P023,Doctor,2026-10-23,13:58,Consultation
+P023,Pharmacy,2026-10-23,14:11,Pharmacy
+P023,Discharge,2026-10-23,14:32,Discharge
+P024,Registration,2026-10-24,09:50,Reception
+P024,Vitals,2026-10-24,10:09,Nursing
+P024,Triage,2026-10-24,10:21,Emergency
+P024,Doctor,2026-10-24,12:29,Consultation
+P024,Billing Counter,2026-10-24,12:50,Billing
+P024,Pathology,2026-10-24,12:57,Laboratory
+P024,X-Ray,2026-10-24,13:05,Radiology
+P024,X-Ray report,2026-10-24,15:51,Radiology
+P024,Pathology report,2026-10-24,17:29,Laboratory
+P024,Doctor,2026-10-24,18:58,Consultation
+P024,Pharmacy,2026-10-24,19:20,Pharmacy
+P024,Discharge,2026-10-24,19:33,Discharge
+P025,Registration,2026-10-25,09:50,Reception
+P025,Vitals,2026-10-25,10:08,Nursing
+P025,Triage,2026-10-25,10:38,Emergency
+P025,Doctor,2026-10-25,13:37,Consultation
+P025,Billing Counter,2026-10-25,13:45,Billing
+P025,X-Ray,2026-10-25,13:51,Radiology
+P025,X-Ray report,2026-10-25,16:22,Radiology
+P025,Doctor,2026-10-25,17:37,Consultation
+P025,Pharmacy,2026-10-25,18:06,Pharmacy
+P025,Discharge,2026-10-25,18:31,Discharge
+P026,Registration,2026-10-26,11:50,Reception
+P026,Vitals,2026-10-26,12:01,Nursing
+P026,Triage,2026-10-26,12:13,Emergency
+P026,Doctor,2026-10-26,12:37,Consultation
+P026,Billing Counter,2026-10-26,12:49,Billing
+P026,Pathology,2026-10-26,13:23,Laboratory
+P026,X-Ray,2026-10-26,13:34,Radiology
+P026,X-Ray report,2026-10-26,14:03,Radiology
+P026,Pathology report,2026-10-26,15:14,Laboratory
+P026,Doctor,2026-10-26,15:37,Consultation
+P026,Pharmacy,2026-10-26,15:42,Pharmacy
+P026,Discharge,2026-10-26,16:00,Discharge
+P027,Registration,2026-10-27,10:50,Reception
+P027,Vitals,2026-10-27,11:23,Nursing
+P027,Triage,2026-10-27,11:56,Emergency
+P027,Doctor,2026-10-27,13:11,Consultation
+P027,Billing Counter,2026-10-27,13:38,Billing
+P027,Pathology,2026-10-27,13:52,Laboratory
+P027,Pathology report,2026-10-27,14:35,Laboratory
+P027,Doctor,2026-10-27,15:33,Consultation
+P027,Pharmacy,2026-10-27,15:41,Pharmacy
+P027,Discharge,2026-10-27,15:55,Discharge
+P028,Registration,2026-10-28,10:15,Reception
+P028,Vitals,2026-10-28,10:34,Nursing
+P028,Triage,2026-10-28,10:46,Emergency
+P028,Doctor,2026-10-28,11:59,Consultation
+P028,Billing Counter,2026-10-28,12:11,Billing
+P028,Pathology,2026-10-28,12:32,Laboratory
+P028,X-Ray,2026-10-28,12:58,Radiology
+P028,X-Ray report,2026-10-28,14:13,Radiology
+P028,Pathology report,2026-10-28,15:23,Laboratory
+P028,Doctor,2026-10-28,16:54,Consultation
+P028,Pharmacy,2026-10-28,17:05,Pharmacy
+P028,Discharge,2026-10-28,17:22,Discharge
+P029,Registration,2026-10-29,08:45,Reception
+P029,Vitals,2026-10-29,09:13,Nursing
+P029,Triage,2026-10-29,09:47,Emergency
+P029,Doctor,2026-10-29,10:20,Consultation
+P029,Billing Counter,2026-10-29,10:29,Billing
+P029,Pathology,2026-10-29,10:37,Laboratory
+P029,X-Ray,2026-10-29,10:56,Radiology
+P029,X-Ray report,2026-10-29,12:01,Radiology
+P029,Pathology report,2026-10-29,13:31,Laboratory
+P029,Doctor,2026-10-29,15:09,Consultation
+P029,Pharmacy,2026-10-29,15:14,Pharmacy
+P029,Discharge,2026-10-29,15:33,Discharge
+P030,Registration,2026-10-30,10:20,Reception
+P030,Vitals,2026-10-30,10:41,Nursing
+P030,Triage,2026-10-30,11:12,Emergency
+P030,Doctor,2026-10-30,13:13,Consultation
+P030,Billing Counter,2026-10-30,13:36,Billing
+P030,Pathology,2026-10-30,14:02,Laboratory
+P030,X-Ray,2026-10-30,14:17,Radiology
+P030,X-Ray report,2026-10-30,16:12,Radiology
+P030,Pathology report,2026-10-30,16:58,Laboratory
+P030,Triage,2026-10-30,17:15,Emergency
+P030,Doctor,2026-10-30,19:51,Consultation
+P030,Pharmacy,2026-10-30,20:09,Pharmacy
+P030,Discharge,2026-10-30,20:18,Discharge
+P031,Registration,2026-10-01,11:10,Reception
+P031,Vitals,2026-10-01,11:17,Nursing
+P031,Triage,2026-10-01,11:32,Emergency
+P031,Doctor,2026-10-01,13:19,Consultation
+P031,Billing Counter,2026-10-01,13:27,Billing
+P031,X-Ray,2026-10-01,13:36,Radiology
+P031,X-Ray report,2026-10-01,15:31,Radiology
+P031,Doctor,2026-10-01,16:49,Consultation
+P031,Pharmacy,2026-10-01,17:07,Pharmacy
+P031,Discharge,2026-10-01,17:18,Discharge
+P032,Registration,2026-10-02,11:00,Reception
+P032,Vitals,2026-10-02,11:09,Nursing
+P032,Triage,2026-10-02,11:35,Emergency
+P032,Doctor,2026-10-02,13:17,Consultation
+P032,Billing Counter,2026-10-02,13:33,Billing
+P032,Doctor,2026-10-02,14:49,Consultation
+P032,Pharmacy,2026-10-02,15:24,Pharmacy
+P032,Discharge,2026-10-02,15:35,Discharge
+P033,Registration,2026-10-03,09:15,Reception
+P033,Vitals,2026-10-03,09:41,Nursing
+P033,Triage,2026-10-03,09:46,Emergency
+P033,Doctor,2026-10-03,10:43,Consultation
+P033,Billing Counter,2026-10-03,10:58,Billing
+P033,Pathology,2026-10-03,11:24,Laboratory
+P033,X-Ray,2026-10-03,11:41,Radiology
+P033,X-Ray report,2026-10-03,12:45,Radiology
+P033,Pathology report,2026-10-03,13:34,Laboratory
+P033,Triage,2026-10-03,13:40,Emergency
+P033,Doctor,2026-10-03,14:07,Consultation
+P033,Pharmacy,2026-10-03,14:29,Pharmacy
+P033,Discharge,2026-10-03,14:36,Discharge
+P034,Registration,2026-10-04,08:15,Reception
+P034,Vitals,2026-10-04,08:45,Nursing
+P034,Triage,2026-10-04,09:18,Emergency
+P034,Doctor,2026-10-04,10:55,Consultation
+P034,Billing Counter,2026-10-04,11:28,Billing
+P034,Doctor,2026-10-04,12:57,Consultation
+P034,Pharmacy,2026-10-04,13:10,Pharmacy
+P034,Discharge,2026-10-04,13:28,Discharge
+P035,Registration,2026-10-05,10:30,Reception
+P035,Vitals,2026-10-05,10:54,Nursing
+P035,Triage,2026-10-05,11:08,Emergency
+P035,Doctor,2026-10-05,13:52,Consultation
+P035,Billing Counter,2026-10-05,14:07,Billing
+P035,Pathology,2026-10-05,14:34,Laboratory
+P035,X-Ray,2026-10-05,15:05,Radiology
+P035,X-Ray report,2026-10-05,16:20,Radiology
+P035,Pathology report,2026-10-05,17:24,Laboratory
+P035,Doctor,2026-10-05,18:48,Consultation
+P035,Pharmacy,2026-10-05,19:17,Pharmacy
+P035,Discharge,2026-10-05,19:22,Discharge
+P036,Registration,2026-10-06,10:05,Reception
+P036,Vitals,2026-10-06,10:37,Nursing
+P036,Triage,2026-10-06,10:45,Emergency
+P036,Doctor,2026-10-06,12:21,Consultation
+P036,Billing Counter,2026-10-06,12:56,Billing
+P036,Pathology,2026-10-06,13:24,Laboratory
+P036,X-Ray,2026-10-06,13:46,Radiology
+P036,X-Ray report,2026-10-06,14:31,Radiology
+P036,Pathology report,2026-10-06,15:42,Laboratory
+P036,Doctor,2026-10-06,16:11,Consultation
+P036,Pharmacy,2026-10-06,16:22,Pharmacy
+P036,Discharge,2026-10-06,16:33,Discharge
+P037,Registration,2026-10-07,10:40,Reception
+P037,Vitals,2026-10-07,11:02,Nursing
+P037,Triage,2026-10-07,11:12,Emergency
+P037,Doctor,2026-10-07,13:50,Consultation
+P037,Billing Counter,2026-10-07,13:55,Billing
+P037,Pathology,2026-10-07,14:08,Laboratory
+P037,X-Ray,2026-10-07,14:36,Radiology
+P037,X-Ray report,2026-10-07,16:08,Radiology
+P037,Pathology report,2026-10-07,17:48,Laboratory
+P037,Doctor,2026-10-07,18:28,Consultation
+P037,Pharmacy,2026-10-07,18:57,Pharmacy
+P037,Discharge,2026-10-07,19:08,Discharge
+P038,Registration,2026-10-08,10:10,Reception
+P038,Vitals,2026-10-08,10:23,Nursing
+P038,Triage,2026-10-08,10:31,Emergency
+P038,Doctor,2026-10-08,12:59,Consultation
+P038,Billing Counter,2026-10-08,13:15,Billing
+P038,Pathology,2026-10-08,13:21,Laboratory
+P038,Pathology report,2026-10-08,16:23,Laboratory
+P038,Doctor,2026-10-08,17:29,Consultation
+P038,Pharmacy,2026-10-08,17:38,Pharmacy
+P038,Discharge,2026-10-08,17:51,Discharge
+P039,Registration,2026-10-09,11:05,Reception
+P039,Vitals,2026-10-09,11:13,Nursing
+P039,Triage,2026-10-09,11:39,Emergency
+P039,Doctor,2026-10-09,13:07,Consultation
+P039,Billing Counter,2026-10-09,13:15,Billing
+P039,Pathology,2026-10-09,13:49,Laboratory
+P039,X-Ray,2026-10-09,14:04,Radiology
+P039,X-Ray report,2026-10-09,15:00,Radiology
+P039,Pathology report,2026-10-09,15:59,Laboratory
+P039,Doctor,2026-10-09,17:15,Consultation
+P039,Pharmacy,2026-10-09,17:50,Pharmacy
+P039,Discharge,2026-10-09,18:02,Discharge
+P040,Registration,2026-10-10,08:05,Reception
+P040,Vitals,2026-10-10,08:24,Nursing
+P040,Triage,2026-10-10,08:55,Emergency
+P040,Doctor,2026-10-10,11:24,Consultation
+P040,Billing Counter,2026-10-10,11:55,Billing
+P040,Pathology,2026-10-10,12:29,Laboratory
+P040,X-Ray,2026-10-10,13:02,Radiology
+P040,X-Ray report,2026-10-10,14:55,Radiology
+P040,Pathology report,2026-10-10,15:38,Laboratory
+P040,Doctor,2026-10-10,16:14,Consultation
+P040,Pharmacy,2026-10-10,16:31,Pharmacy
+P040,Discharge,2026-10-10,16:36,Discharge
+P041,Registration,2026-10-11,11:15,Reception
+P041,Vitals,2026-10-11,11:45,Nursing
+P041,Triage,2026-10-11,12:17,Emergency
+P041,Doctor,2026-10-11,13:49,Consultation
+P041,Billing Counter,2026-10-11,13:59,Billing
+P041,Doctor,2026-10-11,15:27,Consultation
+P041,Pharmacy,2026-10-11,15:40,Pharmacy
+P041,Discharge,2026-10-11,15:58,Discharge
+P042,Registration,2026-10-12,09:40,Reception
+P042,Vitals,2026-10-12,10:10,Nursing
+P042,Triage,2026-10-12,10:33,Emergency
+P042,Doctor,2026-10-12,11:43,Consultation
+P042,Billing Counter,2026-10-12,11:56,Billing
+P042,X-Ray,2026-10-12,12:19,Radiology
+P042,X-Ray report,2026-10-12,12:45,Radiology
+P042,Doctor,2026-10-12,14:14,Consultation
+P042,Pharmacy,2026-10-12,14:41,Pharmacy
+P042,Discharge,2026-10-12,14:52,Discharge
+P043,Registration,2026-10-13,10:20,Reception
+P043,Vitals,2026-10-13,10:25,Nursing
+P043,Triage,2026-10-13,10:51,Emergency
+P043,Doctor,2026-10-13,11:29,Consultation
+P043,Billing Counter,2026-10-13,11:43,Billing
+P043,Pathology,2026-10-13,11:57,Laboratory
+P043,X-Ray,2026-10-13,12:30,Radiology
+P043,X-Ray report,2026-10-13,13:15,Radiology
+P043,Pathology report,2026-10-13,14:29,Laboratory
+P043,Doctor,2026-10-13,15:16,Consultation
+P043,Pharmacy,2026-10-13,15:36,Pharmacy
+P043,Discharge,2026-10-13,15:42,Discharge
+P044,Registration,2026-10-14,11:05,Reception
+P044,Vitals,2026-10-14,11:31,Nursing
+P044,Triage,2026-10-14,11:37,Emergency
+P044,Doctor,2026-10-14,15:05,Consultation
+P044,Billing Counter,2026-10-14,15:17,Billing
+P044,Pathology,2026-10-14,15:50,Laboratory
+P044,X-Ray,2026-10-14,16:21,Radiology
+P044,X-Ray report,2026-10-14,18:10,Radiology
+P044,Pathology report,2026-10-14,19:27,Laboratory
+P044,Triage,2026-10-14,19:38,Emergency
+P044,Doctor,2026-10-14,22:45,Consultation
+P044,Pharmacy,2026-10-14,23:08,Pharmacy
+P044,Discharge,2026-10-14,23:26,Discharge
+P045,Registration,2026-10-15,10:05,Reception
+P045,Vitals,2026-10-15,10:11,Nursing
+P045,Triage,2026-10-15,10:46,Emergency
+P045,Doctor,2026-10-15,12:14,Consultation
+P045,Billing Counter,2026-10-15,12:48,Billing
+P045,Pathology,2026-10-15,13:02,Laboratory
+P045,X-Ray,2026-10-15,13:29,Radiology
+P045,X-Ray report,2026-10-15,13:52,Radiology
+P045,Pathology report,2026-10-15,14:38,Laboratory
+P045,Triage,2026-10-15,14:44,Emergency
+P045,Doctor,2026-10-15,15:23,Consultation
+P045,Pharmacy,2026-10-15,15:55,Pharmacy
+P045,Discharge,2026-10-15,16:20,Discharge
+P046,Registration,2026-10-16,08:00,Reception
+P046,Vitals,2026-10-16,08:24,Nursing
+P046,Triage,2026-10-16,08:41,Emergency
+P046,Doctor,2026-10-16,11:14,Consultation
+P046,Billing Counter,2026-10-16,11:40,Billing
+P046,Pathology,2026-10-16,11:50,Laboratory
+P046,X-Ray,2026-10-16,12:15,Radiology
+P046,X-Ray report,2026-10-16,14:36,Radiology
+P046,Pathology report,2026-10-16,15:50,Laboratory
+P046,Doctor,2026-10-16,16:23,Consultation
+P046,Pharmacy,2026-10-16,16:30,Pharmacy
+P046,Discharge,2026-10-16,16:36,Discharge
+P047,Registration,2026-10-17,09:10,Reception
+P047,Vitals,2026-10-17,09:36,Nursing
+P047,Triage,2026-10-17,09:59,Emergency
+P047,Doctor,2026-10-17,10:57,Consultation
+P047,Billing Counter,2026-10-17,11:13,Billing
+P047,Pathology,2026-10-17,11:34,Laboratory
+P047,X-Ray,2026-10-17,11:52,Radiology
+P047,X-Ray report,2026-10-17,12:45,Radiology
+P047,Pathology report,2026-10-17,13:41,Laboratory
+P047,Doctor,2026-10-17,14:53,Consultation
+P047,Pharmacy,2026-10-17,15:25,Pharmacy
+P047,Discharge,2026-10-17,15:35,Discharge
+P048,Registration,2026-10-18,08:00,Reception
+P048,Vitals,2026-10-18,08:29,Nursing
+P048,Triage,2026-10-18,08:53,Emergency
+P048,Doctor,2026-10-18,10:29,Consultation
+P048,Billing Counter,2026-10-18,10:37,Billing
+P048,Pathology,2026-10-18,10:56,Laboratory
+P048,X-Ray,2026-10-18,11:30,Radiology
+P048,X-Ray report,2026-10-18,12:21,Radiology
+P048,Pathology report,2026-10-18,14:01,Laboratory
+P048,Triage,2026-10-18,14:21,Emergency
+P048,Doctor,2026-10-18,14:44,Consultation
+P048,Pharmacy,2026-10-18,15:00,Pharmacy
+P048,Discharge,2026-10-18,15:14,Discharge
+P049,Registration,2026-10-19,11:30,Reception
+P049,Vitals,2026-10-19,11:53,Nursing
+P049,Triage,2026-10-19,12:16,Emergency
+P049,Doctor,2026-10-19,14:27,Consultation
+P049,Billing Counter,2026-10-19,14:38,Billing
+P049,Pathology,2026-10-19,14:48,Laboratory
+P049,X-Ray,2026-10-19,14:54,Radiology
+P049,X-Ray report,2026-10-19,17:01,Radiology
+P049,Pathology report,2026-10-19,17:27,Laboratory
+P049,Doctor,2026-10-19,19:01,Consultation
+P049,Pharmacy,2026-10-19,19:09,Pharmacy
+P049,Discharge,2026-10-19,19:29,Discharge
+P050,Registration,2026-10-20,10:40,Reception
+P050,Vitals,2026-10-20,11:04,Nursing
+P050,Triage,2026-10-20,11:11,Emergency
+P050,Doctor,2026-10-20,12:00,Consultation
+P050,Billing Counter,2026-10-20,12:23,Billing
+P050,Pathology,2026-10-20,12:40,Laboratory
+P050,X-Ray,2026-10-20,12:49,Radiology
+P050,X-Ray report,2026-10-20,14:13,Radiology
+P050,Pathology report,2026-10-20,14:45,Laboratory
+P050,Doctor,2026-10-20,16:07,Consultation
+P050,Pharmacy,2026-10-20,16:41,Pharmacy
+P050,Discharge,2026-10-20,17:02,Discharge
+P051,Registration,2026-10-21,09:50,Reception
+P051,Vitals,2026-10-21,10:22,Nursing
+P051,Triage,2026-10-21,10:40,Emergency
+P051,Doctor,2026-10-21,11:34,Consultation
+P051,Billing Counter,2026-10-21,11:49,Billing
+P051,Pathology,2026-10-21,12:15,Laboratory
+P051,X-Ray,2026-10-21,12:35,Radiology
+P051,X-Ray report,2026-10-21,13:17,Radiology
+P051,Pathology report,2026-10-21,14:07,Laboratory
+P051,Doctor,2026-10-21,14:40,Consultation
+P051,Pharmacy,2026-10-21,15:08,Pharmacy
+P051,Discharge,2026-10-21,15:14,Discharge
+P052,Registration,2026-10-22,09:30,Reception
+P052,Vitals,2026-10-22,09:40,Nursing
+P052,Triage,2026-10-22,10:06,Emergency
+P052,Doctor,2026-10-22,11:17,Consultation
+P052,Billing Counter,2026-10-22,11:45,Billing
+P052,X-Ray,2026-10-22,12:15,Radiology
+P052,X-Ray report,2026-10-22,12:57,Radiology
+P052,Doctor,2026-10-22,14:28,Consultation
+P052,Pharmacy,2026-10-22,15:01,Pharmacy
+P052,Discharge,2026-10-22,15:13,Discharge
+P053,Registration,2026-10-23,09:45,Reception
+P053,Vitals,2026-10-23,10:01,Nursing
+P053,Triage,2026-10-23,10:27,Emergency
+P053,Doctor,2026-10-23,11:51,Consultation
+P053,Billing Counter,2026-10-23,12:16,Billing
+P053,X-Ray,2026-10-23,12:35,Radiology
+P053,X-Ray report,2026-10-23,13:23,Radiology
+P053,Doctor,2026-10-23,13:51,Consultation
+P053,Pharmacy,2026-10-23,14:09,Pharmacy
+P053,Discharge,2026-10-23,14:29,Discharge
+P054,Registration,2026-10-24,11:30,Reception
+P054,Vitals,2026-10-24,11:37,Nursing
+P054,Triage,2026-10-24,11:52,Emergency
+P054,Doctor,2026-10-24,13:08,Consultation
+P054,Billing Counter,2026-10-24,13:27,Billing
+P054,Pathology,2026-10-24,13:32,Laboratory
+P054,Pathology report,2026-10-24,14:06,Laboratory
+P054,Doctor,2026-10-24,14:30,Consultation
+P054,Pharmacy,2026-10-24,14:57,Pharmacy
+P054,Discharge,2026-10-24,15:13,Discharge
+P055,Registration,2026-10-25,10:30,Reception
+P055,Vitals,2026-10-25,10:56,Nursing
+P055,Triage,2026-10-25,11:30,Emergency
+P055,Doctor,2026-10-25,14:09,Consultation
+P055,Billing Counter,2026-10-25,14:29,Billing
+P055,Pathology,2026-10-25,14:57,Laboratory
+P055,X-Ray,2026-10-25,15:26,Radiology
+P055,X-Ray report,2026-10-25,18:18,Radiology
+P055,Pathology report,2026-10-25,19:21,Laboratory
+P055,Doctor,2026-10-25,20:10,Consultation
+P055,Pharmacy,2026-10-25,20:16,Pharmacy
+P055,Discharge,2026-10-25,20:26,Discharge
+P056,Registration,2026-10-26,09:45,Reception
+P056,Vitals,2026-10-26,10:10,Nursing
+P056,Triage,2026-10-26,10:41,Emergency
+P056,Doctor,2026-10-26,11:02,Consultation
+P056,Billing Counter,2026-10-26,11:18,Billing
+P056,Pathology,2026-10-26,11:53,Laboratory
+P056,Pathology report,2026-10-26,12:29,Laboratory
+P056,Doctor,2026-10-26,13:23,Consultation
+P056,Pharmacy,2026-10-26,13:58,Pharmacy
+P056,Discharge,2026-10-26,14:14,Discharge
+P057,Registration,2026-10-27,10:05,Reception
+P057,Vitals,2026-10-27,10:14,Nursing
+P057,Triage,2026-10-27,10:35,Emergency
+P057,Doctor,2026-10-27,10:56,Consultation
+P057,Billing Counter,2026-10-27,11:20,Billing
+P057,Pathology,2026-10-27,11:40,Laboratory
+P057,X-Ray,2026-10-27,12:01,Radiology
+P057,X-Ray report,2026-10-27,13:14,Radiology
+P057,Pathology report,2026-10-27,14:25,Laboratory
+P057,Triage,2026-10-27,14:45,Emergency
+P057,Doctor,2026-10-27,15:13,Consultation
+P057,Pharmacy,2026-10-27,15:43,Pharmacy
+P057,Discharge,2026-10-27,15:54,Discharge
+P058,Registration,2026-10-28,09:30,Reception
+P058,Vitals,2026-10-28,09:38,Nursing
+P058,Triage,2026-10-28,09:55,Emergency
+P058,Doctor,2026-10-28,10:24,Consultation
+P058,Billing Counter,2026-10-28,10:40,Billing
+P058,Pathology,2026-10-28,11:01,Laboratory
+P058,Pathology report,2026-10-28,12:09,Laboratory
+P058,Doctor,2026-10-28,12:42,Consultation
+P058,Pharmacy,2026-10-28,12:53,Pharmacy
+P058,Discharge,2026-10-28,13:06,Discharge
+P059,Registration,2026-10-29,08:05,Reception
+P059,Vitals,2026-10-29,08:23,Nursing
+P059,Triage,2026-10-29,08:54,Emergency
+P059,Doctor,2026-10-29,11:21,Consultation
+P059,Billing Counter,2026-10-29,11:55,Billing
+P059,Pathology,2026-10-29,12:23,Laboratory
+P059,X-Ray,2026-10-29,12:41,Radiology
+P059,X-Ray report,2026-10-29,15:26,Radiology
+P059,Pathology report,2026-10-29,15:51,Laboratory
+P059,Doctor,2026-10-29,17:04,Consultation
+P059,Pharmacy,2026-10-29,17:10,Pharmacy
+P059,Discharge,2026-10-29,17:18,Discharge
+P060,Registration,2026-10-30,10:50,Reception
+P060,Vitals,2026-10-30,11:06,Nursing
+P060,Triage,2026-10-30,11:22,Emergency
+P060,Doctor,2026-10-30,11:50,Consultation
+P060,Billing Counter,2026-10-30,12:05,Billing
+P060,Pathology,2026-10-30,12:29,Laboratory
+P060,X-Ray,2026-10-30,12:39,Radiology
+P060,X-Ray report,2026-10-30,13:14,Radiology
+P060,Pathology report,2026-10-30,13:37,Laboratory
+P060,Doctor,2026-10-30,14:53,Consultation
+P060,Pharmacy,2026-10-30,15:10,Pharmacy
+P060,Discharge,2026-10-30,15:31,Discharge
+P061,Registration,2026-10-01,10:00,Reception
+P061,Vitals,2026-10-01,10:14,Nursing
+P061,Triage,2026-10-01,10:23,Emergency
+P061,Doctor,2026-10-01,12:47,Consultation
+P061,Billing Counter,2026-10-01,13:11,Billing
+P061,Pathology,2026-10-01,13:31,Laboratory
+P061,X-Ray,2026-10-01,13:47,Radiology
+P061,X-Ray report,2026-10-01,15:58,Radiology
+P061,Pathology report,2026-10-01,17:26,Laboratory
+P061,Doctor,2026-10-01,17:50,Consultation
+P061,Pharmacy,2026-10-01,18:14,Pharmacy
+P061,Discharge,2026-10-01,18:34,Discharge
+P062,Registration,2026-10-02,09:15,Reception
+P062,Vitals,2026-10-02,09:47,Nursing
+P062,Triage,2026-10-02,10:01,Emergency
+P062,Doctor,2026-10-02,10:41,Consultation
+P062,Billing Counter,2026-10-02,10:52,Billing
+P062,Pathology,2026-10-02,11:11,Laboratory
+P062,X-Ray,2026-10-02,11:31,Radiology
+P062,X-Ray report,2026-10-02,12:33,Radiology
+P062,Pathology report,2026-10-02,13:53,Laboratory
+P062,Doctor,2026-10-02,15:33,Consultation
+P062,Pharmacy,2026-10-02,15:52,Pharmacy
+P062,Discharge,2026-10-02,16:11,Discharge
+P063,Registration,2026-10-03,10:40,Reception
+P063,Vitals,2026-10-03,11:12,Nursing
+P063,Triage,2026-10-03,11:31,Emergency
+P063,Doctor,2026-10-03,12:03,Consultation
+P063,Billing Counter,2026-10-03,12:37,Billing
+P063,Pathology,2026-10-03,13:09,Laboratory
+P063,X-Ray,2026-10-03,13:33,Radiology
+P063,X-Ray report,2026-10-03,14:34,Radiology
+P063,Pathology report,2026-10-03,15:42,Laboratory
+P063,Doctor,2026-10-03,17:14,Consultation
+P063,Pharmacy,2026-10-03,17:37,Pharmacy
+P063,Discharge,2026-10-03,18:01,Discharge
+P064,Registration,2026-10-04,09:15,Reception
+P064,Vitals,2026-10-04,09:36,Nursing
+P064,Triage,2026-10-04,09:55,Emergency
+P064,Doctor,2026-10-04,11:33,Consultation
+P064,Billing Counter,2026-10-04,11:46,Billing
+P064,Pathology,2026-10-04,12:10,Laboratory
+P064,X-Ray,2026-10-04,12:22,Radiology
+P064,X-Ray report,2026-10-04,13:19,Radiology
+P064,Pathology report,2026-10-04,14:01,Laboratory
+P064,Doctor,2026-10-04,15:27,Consultation
+P064,Pharmacy,2026-10-04,15:39,Pharmacy
+P064,Discharge,2026-10-04,15:57,Discharge
+P065,Registration,2026-10-05,08:40,Reception
+P065,Vitals,2026-10-05,09:14,Nursing
+P065,Triage,2026-10-05,09:23,Emergency
+P065,Doctor,2026-10-05,10:04,Consultation
+P065,Billing Counter,2026-10-05,10:20,Billing
+P065,Pathology,2026-10-05,10:47,Laboratory
+P065,X-Ray,2026-10-05,11:10,Radiology
+P065,X-Ray report,2026-10-05,11:46,Radiology
+P065,Pathology report,2026-10-05,12:23,Laboratory
+P065,Doctor,2026-10-05,13:21,Consultation
+P065,Pharmacy,2026-10-05,13:39,Pharmacy
+P065,Discharge,2026-10-05,13:48,Discharge
+P066,Registration,2026-10-06,09:45,Reception
+P066,Vitals,2026-10-06,09:59,Nursing
+P066,Triage,2026-10-06,10:10,Emergency
+P066,Doctor,2026-10-06,13:31,Consultation
+P066,Billing Counter,2026-10-06,13:55,Billing
+P066,Pathology,2026-10-06,14:01,Laboratory
+P066,Pathology report,2026-10-06,16:37,Laboratory
+P066,Doctor,2026-10-06,17:21,Consultation
+P066,Pharmacy,2026-10-06,17:45,Pharmacy
+P066,Discharge,2026-10-06,18:04,Discharge
+P067,Registration,2026-10-07,08:10,Reception
+P067,Vitals,2026-10-07,08:20,Nursing
+P067,Triage,2026-10-07,08:35,Emergency
+P067,Doctor,2026-10-07,09:00,Consultation
+P067,Billing Counter,2026-10-07,09:08,Billing
+P067,Pathology,2026-10-07,09:20,Laboratory
+P067,Pathology report,2026-10-07,09:45,Laboratory
+P067,Doctor,2026-10-07,10:49,Consultation
+P067,Pharmacy,2026-10-07,11:00,Pharmacy
+P067,Discharge,2026-10-07,11:07,Discharge
+P068,Registration,2026-10-08,09:45,Reception
+P068,Vitals,2026-10-08,09:51,Nursing
+P068,Triage,2026-10-08,10:15,Emergency
+P068,Doctor,2026-10-08,11:05,Consultation
+P068,Billing Counter,2026-10-08,11:30,Billing
+P068,X-Ray,2026-10-08,11:38,Radiology
+P068,X-Ray report,2026-10-08,12:51,Radiology
+P068,Doctor,2026-10-08,13:30,Consultation
+P068,Pharmacy,2026-10-08,13:42,Pharmacy
+P068,Discharge,2026-10-08,13:56,Discharge
+P069,Registration,2026-10-09,09:45,Reception
+P069,Vitals,2026-10-09,10:20,Nursing
+P069,Triage,2026-10-09,10:25,Emergency
+P069,Doctor,2026-10-09,13:44,Consultation
+P069,Billing Counter,2026-10-09,14:04,Billing
+P069,Pathology,2026-10-09,14:18,Laboratory
+P069,X-Ray,2026-10-09,14:36,Radiology
+P069,X-Ray report,2026-10-09,16:57,Radiology
+P069,Pathology report,2026-10-09,18:33,Laboratory
+P069,Doctor,2026-10-09,19:13,Consultation
+P069,Pharmacy,2026-10-09,19:47,Pharmacy
+P069,Discharge,2026-10-09,20:10,Discharge
+P070,Registration,2026-10-10,09:15,Reception
+P070,Vitals,2026-10-10,09:36,Nursing
+P070,Triage,2026-10-10,09:45,Emergency
+P070,Doctor,2026-10-10,12:47,Consultation
+P070,Billing Counter,2026-10-10,13:14,Billing
+P070,Pathology,2026-10-10,13:49,Laboratory
+P070,Pathology report,2026-10-10,16:14,Laboratory
+P070,Doctor,2026-10-10,16:54,Consultation
+P070,Pharmacy,2026-10-10,17:15,Pharmacy
+P070,Discharge,2026-10-10,17:25,Discharge
+P071,Registration,2026-10-11,09:45,Reception
+P071,Vitals,2026-10-11,09:55,Nursing
+P071,Triage,2026-10-11,10:22,Emergency
+P071,Doctor,2026-10-11,10:44,Consultation
+P071,Billing Counter,2026-10-11,11:04,Billing
+P071,X-Ray,2026-10-11,11:32,Radiology
+P071,X-Ray report,2026-10-11,13:12,Radiology
+P071,Doctor,2026-10-11,14:23,Consultation
+P071,Pharmacy,2026-10-11,14:35,Pharmacy
+P071,Discharge,2026-10-11,14:57,Discharge
+P072,Registration,2026-10-12,09:40,Reception
+P072,Vitals,2026-10-12,09:53,Nursing
+P072,Triage,2026-10-12,10:06,Emergency
+P072,Doctor,2026-10-12,11:37,Consultation
+P072,Billing Counter,2026-10-12,11:51,Billing
+P072,Pathology,2026-10-12,12:04,Laboratory
+P072,X-Ray,2026-10-12,12:16,Radiology
+P072,X-Ray report,2026-10-12,12:55,Radiology
+P072,Pathology report,2026-10-12,14:34,Laboratory
+P072,Triage,2026-10-12,14:45,Emergency
+P072,Doctor,2026-10-12,15:29,Consultation
+P072,Pharmacy,2026-10-12,15:34,Pharmacy
+P072,Discharge,2026-10-12,15:41,Discharge
+P073,Registration,2026-10-13,11:50,Reception
+P073,Vitals,2026-10-13,12:05,Nursing
+P073,Triage,2026-10-13,12:26,Emergency
+P073,Doctor,2026-10-13,12:55,Consultation
+P073,Billing Counter,2026-10-13,13:13,Billing
+P073,Pathology,2026-10-13,13:35,Laboratory
+P073,X-Ray,2026-10-13,13:49,Radiology
+P073,X-Ray report,2026-10-13,14:21,Radiology
+P073,Pathology report,2026-10-13,15:38,Laboratory
+P073,Doctor,2026-10-13,16:01,Consultation
+P073,Pharmacy,2026-10-13,16:10,Pharmacy
+P073,Discharge,2026-10-13,16:23,Discharge
+P074,Registration,2026-10-14,10:10,Reception
+P074,Vitals,2026-10-14,10:24,Nursing
+P074,Triage,2026-10-14,10:32,Emergency
+P074,Doctor,2026-10-14,13:27,Consultation
+P074,Billing Counter,2026-10-14,13:47,Billing
+P074,Pathology,2026-10-14,14:03,Laboratory
+P074,X-Ray,2026-10-14,14:19,Radiology
+P074,X-Ray report,2026-10-14,15:50,Radiology
+P074,Pathology report,2026-10-14,16:39,Laboratory
+P074,Doctor,2026-10-14,17:44,Consultation
+P074,Pharmacy,2026-10-14,18:19,Pharmacy
+P074,Discharge,2026-10-14,18:32,Discharge
+P075,Registration,2026-10-15,10:50,Reception
+P075,Vitals,2026-10-15,11:06,Nursing
+P075,Triage,2026-10-15,11:37,Emergency
+P075,Doctor,2026-10-15,12:54,Consultation
+P075,Billing Counter,2026-10-15,13:13,Billing
+P075,Doctor,2026-10-15,14:22,Consultation
+P075,Pharmacy,2026-10-15,14:31,Pharmacy
+P075,Discharge,2026-10-15,14:41,Discharge
+P076,Registration,2026-10-16,09:10,Reception
+P076,Vitals,2026-10-16,09:39,Nursing
+P076,Triage,2026-10-16,09:48,Emergency
+P076,Doctor,2026-10-16,12:58,Consultation
+P076,Billing Counter,2026-10-16,13:10,Billing
+P076,Pathology,2026-10-16,13:38,Laboratory
+P076,X-Ray,2026-10-16,14:08,Radiology
+P076,X-Ray report,2026-10-16,16:26,Radiology
+P076,Pathology report,2026-10-16,17:33,Laboratory
+P076,Doctor,2026-10-16,18:41,Consultation
+P076,Pharmacy,2026-10-16,18:51,Pharmacy
+P076,Discharge,2026-10-16,19:04,Discharge
+P077,Registration,2026-10-17,10:40,Reception
+P077,Vitals,2026-10-17,11:07,Nursing
+P077,Triage,2026-10-17,11:41,Emergency
+P077,Doctor,2026-10-17,12:30,Consultation
+P077,Billing Counter,2026-10-17,12:50,Billing
+P077,Pathology,2026-10-17,13:02,Laboratory
+P077,X-Ray,2026-10-17,13:28,Radiology
+P077,X-Ray report,2026-10-17,15:04,Radiology
+P077,Pathology report,2026-10-17,15:53,Laboratory
+P077,Doctor,2026-10-17,16:32,Consultation
+P077,Pharmacy,2026-10-17,17:07,Pharmacy
+P077,Discharge,2026-10-17,17:31,Discharge
+P078,Registration,2026-10-18,10:45,Reception
+P078,Vitals,2026-10-18,10:50,Nursing
+P078,Triage,2026-10-18,11:15,Emergency
+P078,Doctor,2026-10-18,12:34,Consultation
+P078,Billing Counter,2026-10-18,12:49,Billing
+P078,Pathology,2026-10-18,13:08,Laboratory
+P078,X-Ray,2026-10-18,13:34,Radiology
+P078,X-Ray report,2026-10-18,14:00,Radiology
+P078,Pathology report,2026-10-18,14:50,Laboratory
+P078,Doctor,2026-10-18,15:12,Consultation
+P078,Pharmacy,2026-10-18,15:25,Pharmacy
+P078,Discharge,2026-10-18,15:34,Discharge
+P079,Registration,2026-10-19,10:10,Reception
+P079,Vitals,2026-10-19,10:20,Nursing
+P079,Triage,2026-10-19,10:32,Emergency
+P079,Doctor,2026-10-19,13:22,Consultation
+P079,Billing Counter,2026-10-19,13:31,Billing
+P079,Pathology,2026-10-19,13:41,Laboratory
+P079,X-Ray,2026-10-19,14:06,Radiology
+P079,X-Ray report,2026-10-19,15:56,Radiology
+P079,Pathology report,2026-10-19,17:07,Laboratory
+P079,Doctor,2026-10-19,18:37,Consultation
+P079,Pharmacy,2026-10-19,18:57,Pharmacy
+P079,Discharge,2026-10-19,19:03,Discharge
+P080,Registration,2026-10-20,11:40,Reception
+P080,Vitals,2026-10-20,12:10,Nursing
+P080,Triage,2026-10-20,12:19,Emergency
+P080,Doctor,2026-10-20,12:48,Consultation
+P080,Billing Counter,2026-10-20,13:00,Billing
+P080,Pathology,2026-10-20,13:28,Laboratory
+P080,Pathology report,2026-10-20,14:44,Laboratory
+P080,Doctor,2026-10-20,15:42,Consultation
+P080,Pharmacy,2026-10-20,16:15,Pharmacy
+P080,Discharge,2026-10-20,16:22,Discharge
+P081,Registration,2026-10-21,10:10,Reception
+P081,Vitals,2026-10-21,10:32,Nursing
+P081,Triage,2026-10-21,11:00,Emergency
+P081,Doctor,2026-10-21,12:21,Consultation
+P081,Billing Counter,2026-10-21,12:45,Billing
+P081,Pathology,2026-10-21,12:51,Laboratory
+P081,X-Ray,2026-10-21,12:57,Radiology
+P081,X-Ray report,2026-10-21,13:47,Radiology
+P081,Pathology report,2026-10-21,14:25,Laboratory
+P081,Doctor,2026-10-21,15:44,Consultation
+P081,Pharmacy,2026-10-21,16:13,Pharmacy
+P081,Discharge,2026-10-21,16:31,Discharge
+P082,Registration,2026-10-22,09:05,Reception
+P082,Vitals,2026-10-22,09:36,Nursing
+P082,Triage,2026-10-22,10:00,Emergency
+P082,Doctor,2026-10-22,11:07,Consultation
+P082,Billing Counter,2026-10-22,11:39,Billing
+P082,X-Ray,2026-10-22,11:48,Radiology
+P082,X-Ray report,2026-10-22,12:32,Radiology
+P082,Doctor,2026-10-22,13:20,Consultation
+P082,Pharmacy,2026-10-22,13:25,Pharmacy
+P082,Discharge,2026-10-22,13:32,Discharge
+P083,Registration,2026-10-23,08:50,Reception
+P083,Vitals,2026-10-23,09:04,Nursing
+P083,Triage,2026-10-23,09:29,Emergency
+P083,Doctor,2026-10-23,11:33,Consultation
+P083,Billing Counter,2026-10-23,11:48,Billing
+P083,Pathology,2026-10-23,12:18,Laboratory
+P083,X-Ray,2026-10-23,12:35,Radiology
+P083,X-Ray report,2026-10-23,15:31,Radiology
+P083,Pathology report,2026-10-23,16:16,Laboratory
+P083,Doctor,2026-10-23,17:42,Consultation
+P083,Pharmacy,2026-10-23,18:06,Pharmacy
+P083,Discharge,2026-10-23,18:17,Discharge
+P084,Registration,2026-10-24,09:00,Reception
+P084,Vitals,2026-10-24,09:32,Nursing
+P084,Triage,2026-10-24,09:46,Emergency
+P084,Doctor,2026-10-24,12:40,Consultation
+P084,Billing Counter,2026-10-24,13:12,Billing
+P084,Pathology,2026-10-24,13:32,Laboratory
+P084,X-Ray,2026-10-24,13:46,Radiology
+P084,X-Ray report,2026-10-24,15:31,Radiology
+P084,Pathology report,2026-10-24,16:59,Laboratory
+P084,Doctor,2026-10-24,18:09,Consultation
+P084,Pharmacy,2026-10-24,18:24,Pharmacy
+P084,Discharge,2026-10-24,18:33,Discharge
+P085,Registration,2026-10-25,09:10,Reception
+P085,Vitals,2026-10-25,09:26,Nursing
+P085,Triage,2026-10-25,09:34,Emergency
+P085,Doctor,2026-10-25,11:12,Consultation
+P085,Billing Counter,2026-10-25,11:31,Billing
+P085,Pathology,2026-10-25,12:03,Laboratory
+P085,Pathology report,2026-10-25,12:30,Laboratory
+P085,Doctor,2026-10-25,12:52,Consultation
+P085,Pharmacy,2026-10-25,13:08,Pharmacy
+P085,Discharge,2026-10-25,13:32,Discharge
+P086,Registration,2026-10-26,08:40,Reception
+P086,Vitals,2026-10-26,08:48,Nursing
+P086,Triage,2026-10-26,08:58,Emergency
+P086,Doctor,2026-10-26,09:43,Consultation
+P086,Billing Counter,2026-10-26,10:14,Billing
+P086,Pathology,2026-10-26,10:43,Laboratory
+P086,X-Ray,2026-10-26,11:18,Radiology
+P086,X-Ray report,2026-10-26,12:16,Radiology
+P086,Pathology report,2026-10-26,13:28,Laboratory
+P086,Doctor,2026-10-26,14:19,Consultation
+P086,Pharmacy,2026-10-26,14:38,Pharmacy
+P086,Discharge,2026-10-26,15:01,Discharge
+P087,Registration,2026-10-27,10:15,Reception
+P087,Vitals,2026-10-27,10:42,Nursing
+P087,Triage,2026-10-27,11:11,Emergency
+P087,Doctor,2026-10-27,13:06,Consultation
+P087,Billing Counter,2026-10-27,13:40,Billing
+P087,Pathology,2026-10-27,14:05,Laboratory
+P087,X-Ray,2026-10-27,14:25,Radiology
+P087,X-Ray report,2026-10-27,16:32,Radiology
+P087,Pathology report,2026-10-27,17:57,Laboratory
+P087,Doctor,2026-10-27,19:31,Consultation
+P087,Pharmacy,2026-10-27,19:47,Pharmacy
+P087,Discharge,2026-10-27,19:57,Discharge
+P088,Registration,2026-10-28,11:45,Reception
+P088,Vitals,2026-10-28,12:03,Nursing
+P088,Triage,2026-10-28,12:31,Emergency
+P088,Doctor,2026-10-28,12:57,Consultation
+P088,Billing Counter,2026-10-28,13:23,Billing
+P088,Pathology,2026-10-28,13:39,Laboratory
+P088,X-Ray,2026-10-28,13:56,Radiology
+P088,X-Ray report,2026-10-28,15:19,Radiology
+P088,Pathology report,2026-10-28,16:06,Laboratory
+P088,Triage,2026-10-28,16:17,Emergency
+P088,Doctor,2026-10-28,17:19,Consultation
+P088,Pharmacy,2026-10-28,17:24,Pharmacy
+P088,Discharge,2026-10-28,17:35,Discharge
+P089,Registration,2026-10-29,09:10,Reception
+P089,Vitals,2026-10-29,09:19,Nursing
+P089,Triage,2026-10-29,09:53,Emergency
+P089,Doctor,2026-10-29,11:27,Consultation
+P089,Billing Counter,2026-10-29,11:48,Billing
+P089,X-Ray,2026-10-29,12:05,Radiology
+P089,X-Ray report,2026-10-29,13:13,Radiology
+P089,Doctor,2026-10-29,13:57,Consultation
+P089,Pharmacy,2026-10-29,14:31,Pharmacy
+P089,Discharge,2026-10-29,14:36,Discharge
+P090,Registration,2026-10-30,08:15,Reception
+P090,Vitals,2026-10-30,08:47,Nursing
+P090,Triage,2026-10-30,09:07,Emergency
+P090,Doctor,2026-10-30,11:41,Consultation
+P090,Billing Counter,2026-10-30,11:56,Billing
+P090,Pathology,2026-10-30,12:07,Laboratory
+P090,X-Ray,2026-10-30,12:33,Radiology
+P090,X-Ray report,2026-10-30,14:32,Radiology
+P090,Pathology report,2026-10-30,15:42,Laboratory
+P090,Doctor,2026-10-30,17:13,Consultation
+P090,Pharmacy,2026-10-30,17:48,Pharmacy
+P090,Discharge,2026-10-30,17:55,Discharge
+P091,Registration,2026-10-01,10:40,Reception
+P091,Vitals,2026-10-01,10:58,Nursing
+P091,Triage,2026-10-01,11:08,Emergency
+P091,Doctor,2026-10-01,12:09,Consultation
+P091,Billing Counter,2026-10-01,12:21,Billing
+P091,Pathology,2026-10-01,12:37,Laboratory
+P091,X-Ray,2026-10-01,12:59,Radiology
+P091,X-Ray report,2026-10-01,14:33,Radiology
+P091,Pathology report,2026-10-01,16:07,Laboratory
+P091,Doctor,2026-10-01,16:31,Consultation
+P091,Pharmacy,2026-10-01,16:41,Pharmacy
+P091,Discharge,2026-10-01,16:59,Discharge
+P092,Registration,2026-10-02,10:45,Reception
+P092,Vitals,2026-10-02,10:50,Nursing
+P092,Triage,2026-10-02,11:14,Emergency
+P092,Doctor,2026-10-02,11:41,Consultation
+P092,Billing Counter,2026-10-02,11:58,Billing
+P092,Pathology,2026-10-02,12:05,Laboratory
+P092,X-Ray,2026-10-02,12:15,Radiology
+P092,X-Ray report,2026-10-02,12:47,Radiology
+P092,Pathology report,2026-10-02,13:23,Laboratory
+P092,Triage,2026-10-02,13:38,Emergency
+P092,Doctor,2026-10-02,14:22,Consultation
+P092,Pharmacy,2026-10-02,14:55,Pharmacy
+P092,Discharge,2026-10-02,15:08,Discharge
+P093,Registration,2026-10-03,09:15,Reception
+P093,Vitals,2026-10-03,09:36,Nursing
+P093,Triage,2026-10-03,09:47,Emergency
+P093,Doctor,2026-10-03,12:50,Consultation
+P093,Billing Counter,2026-10-03,13:05,Billing
+P093,Pathology,2026-10-03,13:27,Laboratory
+P093,X-Ray,2026-10-03,13:36,Radiology
+P093,X-Ray report,2026-10-03,15:32,Radiology
+P093,Pathology report,2026-10-03,16:55,Laboratory
+P093,Triage,2026-10-03,17:15,Emergency
+P093,Doctor,2026-10-03,20:49,Consultation
+P093,Pharmacy,2026-10-03,21:15,Pharmacy
+P093,Discharge,2026-10-03,21:39,Discharge
+P094,Registration,2026-10-04,09:05,Reception
+P094,Vitals,2026-10-04,09:21,Nursing
+P094,Triage,2026-10-04,09:53,Emergency
+P094,Doctor,2026-10-04,10:22,Consultation
+P094,Billing Counter,2026-10-04,10:31,Billing
+P094,Pathology,2026-10-04,11:05,Laboratory
+P094,X-Ray,2026-10-04,11:24,Radiology
+P094,X-Ray report,2026-10-04,12:58,Radiology
+P094,Pathology report,2026-10-04,14:26,Laboratory
+P094,Doctor,2026-10-04,15:15,Consultation
+P094,Pharmacy,2026-10-04,15:46,Pharmacy
+P094,Discharge,2026-10-04,16:08,Discharge
+P095,Registration,2026-10-05,09:15,Reception
+P095,Vitals,2026-10-05,09:28,Nursing
+P095,Triage,2026-10-05,09:57,Emergency
+P095,Doctor,2026-10-05,13:31,Consultation
+P095,Billing Counter,2026-10-05,13:45,Billing
+P095,Pathology,2026-10-05,13:53,Laboratory
+P095,Pathology report,2026-10-05,16:51,Laboratory
+P095,Doctor,2026-10-05,17:41,Consultation
+P095,Pharmacy,2026-10-05,17:46,Pharmacy
+P095,Discharge,2026-10-05,17:59,Discharge
+P096,Registration,2026-10-06,10:30,Reception
+P096,Vitals,2026-10-06,10:44,Nursing
+P096,Triage,2026-10-06,10:49,Emergency
+P096,Doctor,2026-10-06,11:17,Consultation
+P096,Billing Counter,2026-10-06,11:44,Billing
+P096,X-Ray,2026-10-06,12:12,Radiology
+P096,X-Ray report,2026-10-06,13:07,Radiology
+P096,Doctor,2026-10-06,13:37,Consultation
+P096,Pharmacy,2026-10-06,14:06,Pharmacy
+P096,Discharge,2026-10-06,14:27,Discharge
+P097,Registration,2026-10-07,11:15,Reception
+P097,Vitals,2026-10-07,11:39,Nursing
+P097,Triage,2026-10-07,11:50,Emergency
+P097,Doctor,2026-10-07,14:55,Consultation
+P097,Billing Counter,2026-10-07,15:13,Billing
+P097,Pathology,2026-10-07,15:33,Laboratory
+P097,X-Ray,2026-10-07,15:39,Radiology
+P097,X-Ray report,2026-10-07,17:37,Radiology
+P097,Pathology report,2026-10-07,18:04,Laboratory
+P097,Doctor,2026-10-07,18:37,Consultation
+P097,Pharmacy,2026-10-07,18:45,Pharmacy
+P097,Discharge,2026-10-07,19:05,Discharge
+P098,Registration,2026-10-08,11:15,Reception
+P098,Vitals,2026-10-08,11:20,Nursing
+P098,Triage,2026-10-08,11:54,Emergency
+P098,Doctor,2026-10-08,14:43,Consultation
+P098,Billing Counter,2026-10-08,15:11,Billing
+P098,Pathology,2026-10-08,15:37,Laboratory
+P098,X-Ray,2026-10-08,15:48,Radiology
+P098,X-Ray report,2026-10-08,18:02,Radiology
+P098,Pathology report,2026-10-08,18:41,Laboratory
+P098,Doctor,2026-10-08,19:17,Consultation
+P098,Pharmacy,2026-10-08,19:52,Pharmacy
+P098,Discharge,2026-10-08,20:15,Discharge
+P099,Registration,2026-10-09,09:20,Reception
+P099,Vitals,2026-10-09,09:39,Nursing
+P099,Triage,2026-10-09,09:44,Emergency
+P099,Doctor,2026-10-09,10:15,Consultation
+P099,Billing Counter,2026-10-09,10:28,Billing
+P099,X-Ray,2026-10-09,11:00,Radiology
+P099,X-Ray report,2026-10-09,12:24,Radiology
+P099,Doctor,2026-10-09,12:53,Consultation
+P099,Pharmacy,2026-10-09,13:06,Pharmacy
+P099,Discharge,2026-10-09,13:24,Discharge
+P100,Registration,2026-10-10,11:30,Reception
+P100,Vitals,2026-10-10,11:54,Nursing
+P100,Triage,2026-10-10,12:28,Emergency
+P100,Doctor,2026-10-10,13:56,Consultation
+P100,Billing Counter,2026-10-10,14:30,Billing
+P100,Pathology,2026-10-10,14:54,Laboratory
+P100,Pathology report,2026-10-10,16:32,Laboratory
+P100,Triage,2026-10-10,16:46,Emergency
+P100,Doctor,2026-10-10,18:14,Consultation
+P100,Pharmacy,2026-10-10,18:42,Pharmacy
+P100,Discharge,2026-10-10,19:04,Discharge
