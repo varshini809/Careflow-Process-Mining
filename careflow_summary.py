@@ -518,5 +518,75 @@ print(f"Percentage: {top_three_percentage:.2f}%")
 
 print("\nPatient Journey Pattern Analysis Completed.")
 print("\n" + "=" * 50)
+
+# 17. DEPARTMENT REVISIT ANALYSIS
+
+print("\n16. DEPARTMENT REVISIT ANALYSIS")
+
+# Sort patient activities chronologically
+revisit_df = df.sort_values(
+    ["Case_ID", "Timestamp"]
+).copy()
+
+# Create a department visit sequence for each patient
+# Remove consecutive activities within the same department
+
+department_visits = revisit_df[
+    revisit_df["Department"] !=
+    revisit_df.groupby("Case_ID")["Department"].shift()
+].copy()
+
+# Identify departments visited more than once
+department_visits["Revisited"] = (
+    department_visits.groupby(
+        ["Case_ID", "Department"]
+    ).cumcount() > 0
+)
+
+# Filter actual department revisits
+revisits = department_visits[
+    department_visits["Revisited"]
+]
+
+# Total revisit statistics
+total_revisit_events = len(revisits)
+
+patients_with_revisits = (
+    revisits["Case_ID"].nunique()
+)
+
+print("\nTotal Department Revisit Events:",
+      total_revisit_events)
+
+print("Patients Revisiting Departments:",
+      patients_with_revisits)
+
+# Most frequently revisited departments
+department_revisit_counts = (
+    revisits.groupby("Department")
+    .agg(
+        Revisit_Count=("Case_ID", "count"),
+        Unique_Patients=("Case_ID", "nunique")
+    )
+    .sort_values("Revisit_Count", ascending=False)
+)
+
+print("\nMOST FREQUENTLY REVISITED DEPARTMENTS")
+
+print(department_revisit_counts.to_string())
+
+# Identify patients with the highest revisit counts
+patient_revisit_counts = (
+    revisits.groupby("Case_ID")
+    .size()
+    .sort_values(ascending=False)
+)
+
+print("\nTOP 5 PATIENTS WITH MOST DEPARTMENT REVISITS")
+
+print(patient_revisit_counts.head(5).to_string())
+
+print("\nDepartment Revisit Analysis Completed.")
+
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
