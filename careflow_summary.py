@@ -588,5 +588,95 @@ print(patient_revisit_counts.head(5).to_string())
 
 print("\nDepartment Revisit Analysis Completed.")
 
+# 18. PATIENT JOURNEY BOTTLENECK ANALYSIS
+
+print("\n17. PATIENT JOURNEY BOTTLENECK ANALYSIS")
+
+# Calculate patient journey duration
+bottleneck_df = df.copy()
+
+bottleneck_df["Timestamp"] = pd.to_datetime(
+    bottleneck_df["Date"].astype(str) + " " +
+    bottleneck_df["Time"].astype(str)
+)
+
+patient_journeys = (
+    bottleneck_df.groupby("Case_ID")["Timestamp"]
+    .agg(["min", "max"])
+)
+
+patient_journeys["Duration_Minutes"] = (
+    patient_journeys["max"] -
+    patient_journeys["min"]
+).dt.total_seconds() / 60
+
+# Calculate average journey duration
+average_duration = (
+    patient_journeys["Duration_Minutes"].mean()
+)
+
+print(f"\nAverage Journey Duration: {average_duration:.2f} minutes")
+
+# Identify patients exceeding average duration
+long_journeys = patient_journeys[
+    patient_journeys["Duration_Minutes"] > average_duration
+]
+
+print(
+    "\nPatients with Above-Average Journey Duration:",
+    len(long_journeys)
+)
+
+# Display 10 longest patient journeys
+print("\nTOP 10 LONGEST PATIENT JOURNEYS")
+
+print(
+    patient_journeys.sort_values(
+        "Duration_Minutes",
+        ascending=False
+    )["Duration_Minutes"].head(10).to_string()
+)
+
+# Categorise patient journeys
+def categorize_duration(duration):
+    if duration <= 60:
+        return "Short"
+    elif duration <= 180:
+        return "Medium"
+    else:
+        return "Long"
+
+patient_journeys["Duration_Category"] = (
+    patient_journeys["Duration_Minutes"]
+    .apply(categorize_duration)
+)
+
+print("\nPATIENT JOURNEY DURATION CATEGORIES")
+
+print(
+    patient_journeys["Duration_Category"]
+    .value_counts()
+    .to_string()
+)
+
+# Identify departments visited by long-duration patients
+long_patient_ids = patient_journeys[
+    patient_journeys["Duration_Category"] == "Long"
+].index
+
+long_patient_activities = bottleneck_df[
+    bottleneck_df["Case_ID"].isin(long_patient_ids)
+]
+
+print("\nDEPARTMENTS VISITED BY LONG-DURATION PATIENTS")
+
+print(
+    long_patient_activities["Department"]
+    .value_counts()
+    .to_string()
+)
+
+print("\nPatient Journey Bottleneck Analysis Completed.")
+
 print("CAREFLOW DATASET ANALYSIS COMPLETED")
 print("=" * 50)
